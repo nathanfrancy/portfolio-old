@@ -1,0 +1,52 @@
+Copy for new portfolio
+
+ 
+
+Pets
+MySQL, php, bootstrap, html5, css3
+I designed this website for my girlfriend and I to post images of all the pets in our life. In particular I liked the idea of doing this project to gain an idea of how to categorize the pets by making a category for each pet, and using this organization to generate dynamic pages using indexes from the database. My design supported the idea of "tagging" more than one pet in each picture (since that happens quite often). This gives the user a way to only browse images they're interested in. I built this site from the ground up with design help from my girlfriend (she was calling all the shots at one point). It's also build with media queries, so you can browse on any device your heart desires.
+
+ 
+
+DECA Tickets
+MySQL, php, html5, css3, bootstrap
+This is one of my proudest projects, basically because it was the first bigger web application I designed and deployed; and because it was used heavily and really solved a problem in an organization that I'm part of.
+Our big fundraiser in Collegiate Deca (UCM organization) is to sell Kansas City Chiefs tickets to anyone we can find. In the past, tickets were difficult to sell because at any point in time the sellers had no idea what tickets were available.
+My system had a very easy way to both input and manage tickets; both from "administrator" and regular "seller" viewpoints. Administrators managed adding tickets (through a batch add function for a set of seats) as well as users, and sellers were authorized to "reserve" tickets pending bringing money to an administrator. Upon turning in money, the administrator would mark the reserved tickets as "sold".
+The really awesome thing about the application was that it had a nice interface of all the different games, and only showed tickets that were marked as available, always up to date. On top of that, it had mobile support, so it was very easy for someone on-the-go to update tickets, thus not allowing someone else to sell those same tickets to another party.
+Overall, this application was a huge success. We sold out of all of our tickets and I was told by several people that it was a lot less of a headache this time around.
+
+ 
+
+Hoorfar law firm
+<p>The Hoorfar Law Firm Website was a very interesting site to build as I hadn't really done any work for a Law client before.</p><p>I built the main site with static html5 and css3, as the site does not change very often (I still perform updates on the site from time to time). A couple of the pages rely on jQuery as well, and the blog portion is handled by a WordPress install in a separate directory, which I've matched the original theme to.</p><p>I also built a small web application for this website which allows an administrator to login and change court information for visitors to see also.</p>
+ 
+
+Tasks
+
+
+ 
+Book Xchange
+
+ 
+
+ 
+This website
+
+
+ 
+
+City of Warrensburg website
+<p>I had the opportunity to rebuild my hometown's city website in the summer of 2012 alongside the System Administrator and it was a great experience!</p><p>The main goals of the new website were to: allow multiple users to enter and update information, to create a new look that better reflected the City of Warrensburg, and to create a good hierarchy structure of pages; and I suppose it was one of my goals to make the site responsive and able to be viewed on tablet and mobile devices along with desk and laptops.</p><p>Given these goals, we started on the site by sending out forms asking for opinions on what they wanted the site to look like and how to be structured. There was lots of interest and lots of great feedback from the community!</p><p>The website ended up being implemented with a custom install of Wordpress Content Management System, which handled all of the users we needed, and gave permissions to certain users within certain departments, etc.</p><p>Overall, the website turned out great, and I think the city workers and the community are very pleased with it!</p>
+
+ 
+UCM Bookstore Website
+<p>I started working for the bookstore when I was newly a freshman at UCM, and quickly moved into the role of website designer for the store. While working here since July 2010, there have been multiple redesigns, and in November 2013 I released my last redesign of the store site as I'm graduating and turning the site over to another undergrad student.</p><p>The store site is build with MBS inSite system, which does pretty much all of the back end processing and generating merchandise lists and products. The system is linked to our cash registers and everyone else in the store, so it's a nice system to use. This makes my job a little bit easier as I mainly do upkeep for the site like updating promotional banners, adding and removing content from pages, and managing calendars for the store along with doing all of my own design for the actual page layout.</p>
+
+ 
+UCM deca website
+<p>I just couldn't get enough of building for UCM Deca, so in the Spring of 2014 I designed and launched a new chapter website which features updates, calendar events, about information and an area to submit interest if you want to join the organization.</p> <p>I built the site by way of a custom theme in Wordpress content management system, which also handles our updates, calendar events and form submissions. The website is optimized for both desktop and tablet/mobile platforms.</p>
+
+ 
+Backyard by Design website
+

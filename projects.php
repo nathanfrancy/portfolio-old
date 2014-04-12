@@ -1,136 +1,140 @@
-<!doctype html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script>
-            var open = false;
-            var data = {
-                "pieces": [
-                    {// City of Warrensburg 
-                        "id": 0,
-                        "title": "The City of Warrensburg Website",
-                        "description": "<p>I had the opportunity to re-build my hometown's city website, so I made the most of the opportunity. I built the website alongside the System Administrator using Wordpress CMS, MySQL, PHP and jQuery.</p>",
-                        "link": "http://www.warrensburg-mo.com",
-                        "bg": "#471c6c",
-                        "color": "white"
-                    },
-                    {
-                        "id": 1,
-                        "title": "Tickets Application",
-                        "description": "This was a little project for UCM Collegiate DECA.",
-                        "link": "http://www.nathanfrancy.com/decatickets",
-                        "bg": "black",
-                        "color": "white"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Hoorfar Law Website",
-                        "description": "This was a little project for Camron Hoorfars Law Business in Lee's Summit, MO.",
-                        "link": "http://www.hoorfarlaw.com",
-                        "bg": "#f0ad4e",
-                        "color": "white"
-                    },
-                    {
-                        "id": 3,
-                        "title": "UCM Bookstore Website",
-                        "description": "This is a bookstore project. Duh",
-                        "link": "http://www.ucmbookstore.com",
-                        "bg": "#ed1c24",
-                        "color": "white"
-                    },
-                    {
-                        "id": 4,
-                        "title": "UCM Collegiate DECA Website",
-                        "description": "This is a cool website, I guess.",
-                        "link": "http://www.ucmdeca.org",
-                        "bg": "#00539b",
-                        "color": "white"
-                    }
-                ]
-            };
+        <?php require('header.php'); ?>
 
-            $(document).ready(function() {
-                $(".feature-click").click(function() {
-                    var theId = $(this).attr('id');
-                    $(".feature-title").text(data.pieces[theId].title);
-                    $(".feature-desc").html(data.pieces[theId].description);
-                    $(".feature-preview").attr('src', "img/features/preview/" + data.pieces[theId].id + ".png");
-                    $(".feature-linkage").attr('href', data.pieces[theId].link);
-                    $(".panel").css("background-color", data.pieces[theId].bg);
-                    $(".panel").css("color", data.pieces[theId].color);
-                });
-            });
-
-            $.fn.preload = function() {
-                this.each(function() {
-                    $('<img/>')[0].src = this;
-                });
-            };
-
-            $([
-                'img/features/preview/0.png',
-                'img/features/preview/2.png',
-                'img/features/preview/3.png',
-                'img/features/preview/4.png'
-            ]).preload();
-        </script>
-    </head>
-    <body>
-
-        <div class="nat-projects container-fluid push">
+        <div class="nat-nav">
+            <a href="projects.php" class="active">projects</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+            <a href="about.php">about</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+            <a href="contact.php">contact</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+            <a href="clippings.php">clippings</a>
+        </div>
+        <div class="nat-projects container-fluid">
 
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h2 class="modal-title feature-title" id="myModalLabel">Modal title</h2>
+                        </div>
                         <div class="modal-body">
-                            <h2 class="feature-title"></h2>
-                            <div class="feature-desc"></div>
-                            <img src="" class="feature-preview" />
+
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="" alt="" class="feature-preview-1">
+                                    </div>
+                                    <div class="item">
+                                        <img src="" alt="" class="feature-preview-2">
+                                    </div>
+                                    <div class="item">
+                                        <img src="" alt="" class="feature-preview-3">
+                                    </div>
+                                </div>
+
+                                <!-- Controls -->
+                                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+
                             <br /><br />
-                            <a href="#" class="btn btn-default feature-linkage">
+                            <button class="btn btn-default feature-desc-button"><span class="glyphicon glyphicon-plus-sign"></span> Read about this project</button>
+                            <a href="#" class="btn btn-default feature-linkage" target="_blank">
                                 <span class="glyphicon glyphicon-new-window"></span> Visit this site
                             </a>
+                            <br />
+                            <br />
+                            <div class="feature-desc"></div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="feature-box feature-box-0 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="0">
-                        &nbsp;
+            <div class="box">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-0 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="0">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-1 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="1">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-2 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="2">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-3 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="3">
+                            &nbsp;
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="feature-box feature-box-1 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="1">
-                        &nbsp;
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="feature-box feature-box-2 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="2">
-                        &nbsp;
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="feature-box feature-box-3 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="3">
-                        &nbsp;
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="feature-box feature-box-4 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="4">
-                        &nbsp;
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-4 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="4">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-5 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="5">
+                            &nbsp;
+                        </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
 
     </body>
+
+    <script>
+        // get the projects and assign to variable 'projects'
+        var projects;
+        $.getJSON('js/projects.json', function(data) {
+            projects = data;
+        });
+
+        $(document).ready(function() {
+            $(".feature-click").click(function() {
+                var theId = $(this).attr('id');
+                $('.carousel').carousel(0);
+                $(".feature-title").text(projects.pieces[theId].title);
+                $(".feature-desc").html(projects.pieces[theId].description);
+                $(".feature-preview-1").attr('src', "img/features/preview/1/" + projects.pieces[theId].id + ".png");
+                $(".feature-preview-2").attr('src', "img/features/preview/2/" + projects.pieces[theId].id + ".png");
+                $(".feature-preview-3").attr('src', "img/features/preview/3/" + projects.pieces[theId].id + ".png");
+                $(".feature-linkage").attr('href', projects.pieces[theId].link);
+                $(".panel").css("background-color", projects.pieces[theId].bg);
+                $(".panel").css("color", projects.pieces[theId].color);
+                $(".feature-desc").hide();
+            });
+            $(".feature-desc-button").click(function() {
+                $(".feature-desc").toggle();
+            });
+        });
+
+        $.fn.preload = function() {
+            this.each(function() {
+                $('<img/>')[0].src = this;
+            });
+        };
+
+        $([
+            'img/features/0.png',
+            'img/features/1.png',
+            'img/features/2.png',
+            'img/features/3.png',
+            'img/features/4.png'
+        ]).preload();
+    </script>
 
 </html>

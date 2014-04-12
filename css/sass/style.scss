@@ -1,25 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Arvo:400,700|Roboto:400,100,500,700|Doppio+One);
 @import "bootstrap.scss";
 
 /*
-bigslide.js classes
+available fonts
+------------------------------------------------
+font-family: 'Lato', sans-serif;
+font-family: 'Arvo', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Doppio One', sans-serif;
 ----------------------------------------------*/
-.panel {
-    position: fixed;
-    right: -21.625em;
-    width: 21.625em;
-    padding: 0px 15px 0px 15px;
-    max-width: 100%;
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
 }
 
-.push {
-    position: relative;
+::selection {
+    background: #ffb7b7;
 }
 
 /*
 feature classes
 ----------------------------------------------*/
-.nat-projects {
-    padding-top: 100px;
+.nat-head {
+    background-color: black;
+    background-image: url(http://localhost/portfolio-super-new/img/binding_dark.png);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0px 5px 10px #7a7a7a;
+    
+    h1 {
+        font-family: 'Doppio One', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        line-height: 1em;
+        font-size: 95px;
+        text-transform: uppercase;
+        position: relative;
+        letter-spacing: -5px;
+        opacity: 1;
+        
+            
+        span {
+            transition: all 0.3s ease-in-out;
+            color: white;
+            opacity: 0.5;
+            
+            &:hover {
+                opacity: 1;
+                text-shadow: 0px 0px 15px #ffffff;
+            }
+        }
+    }
+}
+
+.nat-nav {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
+    a {
+        color: black;
+    }
+    .active {
+        font-weight: bold;
+    }
+}
+
+.box {
+    padding-top: 50px;
+}
+
+.feature-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.feature-desc {
+    display: none;
 }
 
 .feature-box {
@@ -44,25 +101,134 @@ feature classes
 }
 
 .feature-box-0 {
-    background-image: url(../img/features/0.png);
+    background-image: url(http://localhost/portfolio-super-new/img/features/0.png);
 }
 
 .feature-box-1 {
-    background-image: url(../img/features/1.png);
+    background-image: url(http://localhost/portfolio-super-new/img/features/1.png);
 }
 
 .feature-box-2 {
-    background-image: url(../img/features/2.png);
+    background-image: url(http://localhost/portfolio-super-new/img/features/2.png);
 }
 
 .feature-box-3 {
-    background-image: url(../img/features/3.png);
+    background-image: url(http://localhost/portfolio-super-new/img/features/3.png);
 }
 
 .feature-box-4 {
-    background-image: url(../img/features/4.png);
+    background-image: url(http://localhost/portfolio-super-new/img/features/4.png);
+}
+
+.feature-box-5 {
+    background-image: url(http://localhost/portfolio-super-new/img/features/5.png);
 }
 
 .feature-preview {
     max-width: 100%;
+}
+
+.social-box {
+    width: 150px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.social {
+    width: 40px; 
+    height: 40px; 
+    background-color: white;
+    text-align: center; 
+    color: white; 
+    border-radius: 40px;
+    float: left;
+    margin-right: 10px;
+    opacity: 0.5;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    
+    a { 
+        display: block;
+        color: black;
+        line-height: 40px; 
+        
+        &:hover {
+            text-decoration: none !important;
+            color: black;
+            
+        }
+    }
+}
+
+.social-t { 
+    &:hover {
+        box-shadow: 0px 0px 10px 6px #7cbce3;
+        opacity: 1;
+    }
+}
+
+.social-f {
+    
+    &:hover {
+        box-shadow: 0px 0px 10px 6px #3b5896;
+        opacity: 1;
+    }
+}
+
+.social-l {
+    
+    &:hover {
+        box-shadow: 0px 0px 10px 6px #256ca6;
+        opacity: 1;
+    }
+}
+
+.nat-about {
+    margin-top: 45px;
+}
+
+
+.nat-component {
+    background-color: #ebebeb;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+    &:hover {
+        background-color: #c0c0c0;
+    }
+}
+
+.nat-component-active {
+    background-color: #c0c0c0;
+}
+
+.nat-component-body {
+    display: none;
+    padding: 15px;
+}
+
+.required {
+    color: red;
+}
+
+@media all and (max-width: 768px) {
+    .nat-head h1 {
+        font-size: 50px;
+    }
+    .feature-box {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 80%;
+    }
+    .placer {
+        height: 0px !important;
+    }
+}
+
+@media all and (max-width: 440px) {
+    .nat-head h1 {
+        font-size: 40px;
+        letter-spacing: -2px;
+    }
 }
