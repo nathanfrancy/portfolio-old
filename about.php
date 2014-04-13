@@ -18,18 +18,20 @@
                     <h2 style='padding-top: 0px; margin-top: 0px;'>a little about me...</h2>
                     <p>Senior at <a href="http://ucmo.edu">UCM</a>. Studying Computer Information Systems. Enjoy making awesome websites and applications.<br />Skilled. Logical. Resourceful.</p>
                     
-                    <div class="nat-component">
-                        skillz
+                    <div class="about-title">
+                        <span>skillz</span>
+                        <div class="about-content">
+                        skillz stuff
+                        </div>
                     </div>
-                    <div class="nat-component-body">
-                        Hello 2
+                    <div class="about-title">
+                        <span>interestz</span>
+                        <div class="about-content">
+                        interestz stuff
+                        </div>
                     </div>
-                    <div class="nat-component">
-                        interests
-                    </div>
-                    <div class="nat-component-body">
-                        Hello 2
-                    </div>
+
+
                 </div>
                 <div class="col-sm-1 placer">&nbsp;</div>
             </div>
@@ -40,26 +42,9 @@
                 </div>
                 <div class="col-sm-2 placer">&nbsp;</div>
             </div>
-            
-            
+
         </div>
-
-    </body>
     
-    <script>
-    $(".nat-component").click(function() {
-        $(".nat-component-body").slideUp();
-        $(".nat-component").removeClass("nat-component-active");
-        
-        if ( $(this).next(".nat-component-body").is(":visible") ) {
-            $(this).next(".nat-component-body").slideUp();
-        }
-        else {
-            $(this).next(".nat-component-body").slideDown();
-            $(this).addClass("nat-component-active");
-        }
-        
-    });
-    </script>
-
-</html>
+ <?php
+ include('footer.php');
+ ?>

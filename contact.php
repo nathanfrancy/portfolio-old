@@ -48,9 +48,7 @@
             </form>
         </div>
 
-    </body>
-    
-    <script>
+           <script>
         $('.sendmemail').click(function(e){
             e.preventDefault();
             var email = $("#email").val();
@@ -68,4 +66,7 @@
             $(".counter span").text(count);
         });
     </script>
-</html>
+
+<?php
+include('footer.php');
+?>

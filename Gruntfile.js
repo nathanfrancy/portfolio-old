@@ -33,7 +33,7 @@ module.exports = function(grunt) {
         }
       }
     }
-
+    
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -41,7 +41,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-  // Default task(s).
   grunt.registerTask('default', ['sass', 'cssmin','uglify']);
-
 };

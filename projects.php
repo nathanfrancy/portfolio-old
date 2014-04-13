@@ -94,9 +94,7 @@
 
         </div>
 
-    </body>
-
-    <script>
+            <script>
         // get the projects and assign to variable 'projects'
         var projects;
         $.getJSON('js/projects.json', function(data) {
@@ -137,4 +135,6 @@
         ]).preload();
     </script>
 
-</html>
+<?php
+include('footer.php');
+?>
