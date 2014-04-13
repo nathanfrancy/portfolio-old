@@ -1,11 +1,5 @@
         <?php require('header.php'); ?>
 
-        <div class="nat-nav">
-            <a href="projects.php" class="active">projects</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-            <a href="about.php">about</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-            <a href="contact.php">contact</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-            <a href="clippings.php">clippings</a>
-        </div>
         <div class="nat-projects container-fluid">
 
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -95,6 +89,7 @@
         </div>
 
             <script>
+        $(".projects").addClass('active');
         // get the projects and assign to variable 'projects'
         var projects;
         $.getJSON('js/projects.json', function(data) {

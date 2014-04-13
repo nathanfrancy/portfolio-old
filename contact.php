@@ -1,19 +1,19 @@
         <?php require('header.php'); ?>
 
-        <div class="nat-nav">
-            <a href="projects.php">projects</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-            <a href="about.php">about</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-            <a href="contact.php" class="active">contact</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-            <a href="clippings.php">clippings</a>
-        </div>
-
         <div class="nat-projects container">
             
             <form action="sendmail.php" method="POST" id="sendmemail">
+
                 <div class="row" style="margin-top: 50px;">
                     <div class="col-sm-3 placer">&nbsp;</div>
                     <div class="col-sm-6">
-                        <input type="text" name="name" class="form-control" placeholder="Name*" size="40" maxlength="40">
+
+                                    <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-3 control-label">Name</label>
+                                        <div class="col-sm-9">
+                                          <input name="name" type="text" class="form-control" id="name" maxlength="40">
+                                        </div>
+                                      </div>
                     </div>
                     <div class="col-sm-3 placer">&nbsp;</div>
                 </div>
@@ -21,7 +21,14 @@
                 <div class="row" style="margin-top: 15px;">
                     <div class="col-sm-3 placer">&nbsp;</div>
                     <div class="col-sm-6">
-                        <input type="text" name="email" class="form-control" placeholder="Email*" size="40" maxlength="40" id="email">
+
+                                        <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+                                        <div class="col-sm-9">
+                                          <input name="email" type="email" class="form-control" id="email" maxlength="40">
+                                        </div>
+                                      </div>
+
                     </div>
                     <div class="col-sm-3 placer">&nbsp;</div>
                 </div>
@@ -29,7 +36,12 @@
                 <div class="row" style="margin-top: 15px;">
                     <div class="col-sm-3 placer">&nbsp;</div>
                     <div class="col-sm-6">
-                        <input type="text" name="phone" class="form-control" placeholder="Phone" size="20" maxlength="20">
+                                        <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-3 control-label">Phone</label>
+                                        <div class="col-sm-9">
+                                          <input name="phone" type="text" class="form-control" id="phone" maxlength="20">
+                                        </div>
+                                      </div>
                     </div>
                     <div class="col-sm-3 placer">&nbsp;</div>
                 </div>
@@ -37,11 +49,15 @@
                 <div class="row" style="margin-top: 15px;">
                     <div class="col-sm-3 placer">&nbsp;</div>
                     <div class="col-sm-6">
-                        <textarea name="message" class="form-control mailmessage" placeholder="Message*" rows="6" size="300" maxlength="300"></textarea>
-                        <br />
-                        <div class="counter"><span>300</span> characters left</div>
-                        <br />
-                        <button type="submit" class="btn btn-default sendmemail">Send me mail</button>
+                                        <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-3 control-label">Message</label>
+                                        <div class="col-sm-9">
+                                          <textarea name="message" class="form-control mailmessage" id="message" rows="6" maxlength="300"></textarea>
+                                            <div class="counter"><span>300</span> characters left</div>
+                                             <button type="submit" class="btn btn-default sendmemail pull-right">Send me mail</button>
+                                        </div>
+                                        
+                                      </div>
                     </div>
                     <div class="col-sm-3 placer">&nbsp;</div>
                 </div>
@@ -49,6 +65,7 @@
         </div>
 
            <script>
+           $('.contact').addClass('active');
         $('.sendmemail').click(function(e){
             e.preventDefault();
             var email = $("#email").val();
@@ -57,7 +74,7 @@
                 $('#sendmemail').submit();
             }
             else {
-                alert("Invalid email");
+                $("#email").addClass("bg-danger");
             }
         });
         

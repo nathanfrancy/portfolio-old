@@ -8,10 +8,11 @@
 
     <div class="nat-head">
         <h1><span>Nathan Francy</span></h1>
-        <div class="social-box">
-            <div class="social social-f"><a href="http://www.facebook.com/nathanfrancy">f</a></div>
-            <div class="social social-t"><a href="https://twitter.com/nathanfrancy">t</a></div>
-            <div class="social social-l"><a href="http://www.linkedin.com/pub/nathan-francy/50/547/862/">l</a></div>
-            <div class="clear"></div>
+        <div class="nat-nav">
+            <a href="projects.php" class="projects">projects</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+            <a href="about.php" class="about">about</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+            <a href="contact.php" class="contact">contact</a><!--&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+            <a href="clippings.php" class="clippings">clippings</a>-->
+            <!--<div class="circle"><span class="glyphicon"></span></div>-->
         </div>
     </div>
