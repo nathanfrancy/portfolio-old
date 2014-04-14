@@ -1,6 +1,3 @@
-Copy for new portfolio
-
- 
 
 Pets
 MySQL, php, bootstrap, html5, css3
@@ -23,7 +20,7 @@ Hoorfar law firm
  
 
 Tasks
-
+<p>I built this web application over my 2013 Christmas Break (yeah, I was that bored). It's build with a more object-oriented approach in PHP - along with MySQL, HTML5, etc. I'm incorporating Bootstrap css and javascript framework along with jQuery in places.</p><p>The application features the ability to add and modify 'tasks' which compile into 'lists', which you can also add and edit. This adds a little organization to putting your tasklists together. You can set a due date for certain tasks to be completed, and can move them from list to list as well. The app is also built to manage many user accounts (login & logot), as lists are associated with the user that is logged in. This is where my relational database design comes into play, making good use of foreign keys and being efficient with querying the database and managing all the incoming data.</p><p>There is currently no way to sign yourself up for an account, but if you <a href='contact.php'>get in touch with me</a> I can give you a demo.</p>
 
  
 Book Xchange
@@ -32,7 +29,7 @@ Book Xchange
 
  
 This website
-
+<p>
 
  
 

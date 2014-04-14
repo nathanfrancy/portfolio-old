@@ -50,12 +50,12 @@
             <div class="box">
                 <div class="row">
                     <div class="col-sm-3">
-                        <div class="feature-box feature-box-0 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="0">
+                        <div class="feature-box feature-box-6 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="6">
                             &nbsp;
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="feature-box feature-box-1 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="1">
+                        <div class="feature-box feature-box-3 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="3">
                             &nbsp;
                         </div>
                     </div>
@@ -65,13 +65,18 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="feature-box feature-box-3 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="3">
+                        <div class="feature-box feature-box-1 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="1">
                             &nbsp;
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-0 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="0">
+                            &nbsp;
+                        </div>
+                    </div>
                     <div class="col-sm-3">
                         <div class="feature-box feature-box-4 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="4">
                             &nbsp;
@@ -82,13 +87,14 @@
                             &nbsp;
                         </div>
                     </div>
+                    
                 </div>
 
             </div>
 
         </div>
 
-            <script>
+        <script>
         $(".projects").addClass('active');
         // get the projects and assign to variable 'projects'
         var projects;
@@ -126,9 +132,11 @@
             'img/features/1.png',
             'img/features/2.png',
             'img/features/3.png',
-            'img/features/4.png'
+            'img/features/4.png',
+            'img/features/5.png',
+            'img/features/6.png'
         ]).preload();
-    </script>
+        </script>
 
 <?php
 include('footer.php');

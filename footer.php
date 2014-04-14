@@ -10,50 +10,11 @@
     </body>
 
 <script>
-var circle = $(".circle span");
-
-$(".projects").on('mouseenter',function(){
-  circle.stop();
-  $(".circle span").addClass("glyphicon-th");
-  $(".circle span").fadeIn();
+$(".littlenathan").on('mouseenter',function(){
+  $(".nat-head h1 span").addClass('lightup');
 });
-$(".projects").on('mouseleave',function(){
-	circle.stop();
-  $(".circle span").removeClass("glyphicon-th");
-  $(".circle span").fadeOut();
-});
-
-$(".about").on('mouseenter',function(){
-	circle.stop();
-  $(".circle span").addClass("glyphicon-info-sign");
-  $(".circle span").fadeIn();
-});
-$(".about").on('mouseleave',function(){
-	circle.stop();
-  $(".circle span").removeClass("glyphicon-info-sign");
-  $(".circle span").fadeOut();
-});
-
-$(".contact").on('mouseenter',function(){
-	circle.stop();
-  $(".circle span").addClass("glyphicon-earphone");
-  $(".circle span").fadeIn();
-});
-$(".contact").on('mouseleave',function(){
-	circle.stop();
-  $(".circle span").removeClass("glyphicon-earphone");
-  $(".circle span").fadeOut();
-});
-
-$(".clippings").on('mouseenter',function(){
-	circle.stop();
-  $(".circle span").addClass("glyphicon-bookmark");
-  $(".circle span").fadeIn();
-});
-$(".clippings").on('mouseleave',function(){
-	
-  $(".circle span").removeClass("glyphicon-bookmark");
-  $(".circle span").fadeOut();
+$(".littlenathan").on('mouseleave',function(){
+  $(".nat-head h1 span").removeClass('lightup');
 });
 </script>
 

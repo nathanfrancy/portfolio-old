@@ -29,7 +29,7 @@ feature classes
 ----------------------------------------------*/
 .nat-head {
     background-color: black;
-    background-image: url(http://localhost/portfolio-super-new/img/binding_dark.png);
+    background-image: url(../../img/binding_dark.png);
     color: white;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -71,6 +71,11 @@ feature classes
                 opacity: 1;
                 text-shadow: 0px 0px 15px #ffffff;
             }
+        }
+
+        .lightup {
+            opacity: 1;
+            text-shadow: 0px 0px 15px #ffffff;
         }
     }
 }
@@ -120,28 +125,10 @@ feature classes
     }
 }
 
-.feature-box-0 {
-    background-image: url(../../img/features/0.png);
-}
-
-.feature-box-1 {
-    background-image: url(../../img/features/1.png);
-}
-
-.feature-box-2 {
-    background-image: url(../../img/features/2.png);
-}
-
-.feature-box-3 {
-    background-image: url(../../img/features/3.png);
-}
-
-.feature-box-4 {
-    background-image: url(../../img/features/4.png);
-}
-
-.feature-box-5 {
-    background-image: url(../../img/features/5.png);
+@for $i from 0 through 6 {
+    .feature-box-#{$i} {
+        background-image: url(../../img/features/#{$i}.png);
+    }
 }
 
 .feature-preview {
@@ -211,10 +198,10 @@ feature classes
 
     .about-label {
         text-align: center;
-        line-height: 28px;
+        line-height: 30px;
     }
     .about-content {
-        line-height: 28px;
+        line-height: 30px;
         
         /*
         span:nth-child(odd) {
@@ -251,6 +238,17 @@ feature classes
 
 .required {
     color: red;
+}
+
+.littlenathan {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-size: 100%;
+    background-image: url(../../img/itslittlenathan.png);
+    border-radius: 300px;
+    box-shadow: 0px 6px 8px #c0c0c0;
+    transition: all 0.3s ease-in-out;
 }
 
 #nat-footer {

@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     sass : {
       dist : {
         options: { 
-          style: 'compressed'
+          style: 'expanded'
         },
         files : { 
           'css/build/style.css': 'css/sass/style.scss'

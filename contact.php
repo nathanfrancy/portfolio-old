@@ -64,8 +64,8 @@
             </form>
         </div>
 
-           <script>
-           $('.contact').addClass('active');
+        <script>
+        $('.contact').addClass('active');
         $('.sendmemail').click(function(e){
             e.preventDefault();
             var email = $("#email").val();
@@ -82,7 +82,7 @@
             var count = 300 - $(".mailmessage").val().length;
             $(".counter span").text(count);
         });
-    </script>
+        </script>
 
 <?php
 include('footer.php');
