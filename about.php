@@ -12,12 +12,9 @@
                                 <strong>me</strong>
                             </div>
                             <div class="col-sm-9 about-content">
-                                <span id="0">student at ucm.</span>&nbsp;
-                                <span id="1">studying cis.</span>&nbsp;
+                                <span id="0">student at ucm, studying cis.</span>&nbsp;
                                 <span id="2">enjoy creating great websites.</span>&nbsp;
                                 <span id="3">currently in warrensburg, mo.</span>&nbsp;
-                                <!--<span id="4">night owl.</span>&nbsp;-->
-                                <span id="5">well-rounded with technology.</span>&nbsp;
                                 <span id="6">obsessed with web.</span>&nbsp;
                                 <span id="7">lover of coke-a-cola.</span>&nbsp;
                                 <span id="8">happy boyfriend of 3 years.</span>&nbsp;
@@ -104,12 +101,12 @@
         var little = $(".littlenathan");
 
         $(".about-content span").on('mouseenter',function(){
-            little.stop();
+            //little.stop().delay(5000);
             $(".littlenathan").css("background-image", "url(img/about/" + $(this).attr('id') + ".png)");
         });
         $(".about-content span").on('mouseleave',function(){
-            little.stop();
-            $(".littlenathan").css("background-image", "url(img/itslittlenathan.png)");
+            //little.stop();
+            //$(".littlenathan").css("background-image", "url(img/itslittlenathan.png)");
         });
 
         $.fn.preload = function() {
@@ -120,11 +117,8 @@
 
         $([
             'img/about/0.png',
-            'img/about/1.png',
             'img/about/2.png',
             'img/about/3.png',
-            //'img/about/4.png',
-            //'img/about/5.png',
             'img/about/6.png',
             'img/about/7.png',
             'img/about/8.png',

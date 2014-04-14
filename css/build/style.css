@@ -7129,6 +7129,10 @@ feature classes
   background-image: url(../../img/features/6.png);
 }
 
+.feature-box-7 {
+  background-image: url(../../img/features/7.png);
+}
+
 .feature-preview {
   max-width: 100%;
 }
@@ -7229,6 +7233,7 @@ feature classes
   padding-bottom: 100%;
   background-size: 100%;
   background-image: url(../../img/itslittlenathan.png);
+  background-repeat: no-repeat;
   border-radius: 300px;
   box-shadow: 0px 6px 8px #c0c0c0;
   transition: all 0.3s ease-in-out;

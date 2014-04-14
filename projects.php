@@ -87,6 +87,11 @@
                             &nbsp;
                         </div>
                     </div>
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-7 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="7">
+                            &nbsp;
+                        </div>
+                    </div>
                     
                 </div>
 
