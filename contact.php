@@ -1,5 +1,14 @@
         <?php require('header.php'); ?>
 
+        <?php
+            $message = $_GET['message'];
+            if ( isset($_GET['message'])) {
+                if ( $message == 1) {
+                    $message = "Thanks for the message! I'll get back with you as soon as I can.";
+                }
+            }
+        ?>
+
         <div class="nat-projects container">
             
             <form action="sendmail.php" method="POST" id="sendmemail">
@@ -9,6 +18,13 @@
                     <div class="col-sm-6">
 
                                     <div class="form-group">
+                                    <?php
+                                    if ($message != "") {
+                                        echo '<div class="alert alert-success">';
+                                        echo $message;
+                                        echo '</div>';
+                                    }
+                                    ?>
                                         <label for="inputEmail3" class="col-sm-3 control-label">Name</label>
                                         <div class="col-sm-9">
                                           <input name="name" type="text" class="form-control" id="name" maxlength="40">
