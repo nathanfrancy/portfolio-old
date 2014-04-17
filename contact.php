@@ -14,8 +14,8 @@
             <form action="sendmail.php" method="POST" id="sendmemail">
 
                 <div class="row" style="margin-top: 50px;">
-                    <div class="col-sm-3 placer">&nbsp;</div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-2 placer">&nbsp;</div>
+                    <div class="col-sm-8">
 
                                     <div class="form-group">
                                     <?php
@@ -31,12 +31,12 @@
                                         </div>
                                       </div>
                     </div>
-                    <div class="col-sm-3 placer">&nbsp;</div>
+                    <div class="col-sm-2 placer">&nbsp;</div>
                 </div>
 
                 <div class="row" style="margin-top: 15px;">
-                    <div class="col-sm-3 placer">&nbsp;</div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-2 placer">&nbsp;</div>
+                    <div class="col-sm-8">
 
                                         <div class="form-group">
                                         <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
@@ -46,12 +46,12 @@
                                       </div>
 
                     </div>
-                    <div class="col-sm-3 placer">&nbsp;</div>
+                    <div class="col-sm-2 placer">&nbsp;</div>
                 </div>
 
                 <div class="row" style="margin-top: 15px;">
-                    <div class="col-sm-3 placer">&nbsp;</div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-2 placer">&nbsp;</div>
+                    <div class="col-sm-8">
                                         <div class="form-group">
                                         <label for="inputEmail3" class="col-sm-3 control-label">Phone</label>
                                         <div class="col-sm-9">
@@ -59,12 +59,12 @@
                                         </div>
                                       </div>
                     </div>
-                    <div class="col-sm-3 placer">&nbsp;</div>
+                    <div class="col-sm-2 placer">&nbsp;</div>
                 </div>
 
                 <div class="row" style="margin-top: 15px;">
-                    <div class="col-sm-3 placer">&nbsp;</div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-2 placer">&nbsp;</div>
+                    <div class="col-sm-8">
                                         <div class="form-group">
                                         <label for="inputEmail3" class="col-sm-3 control-label">Message</label>
                                         <div class="col-sm-9">
@@ -75,7 +75,7 @@
                                         
                                       </div>
                     </div>
-                    <div class="col-sm-3 placer">&nbsp;</div>
+                    <div class="col-sm-2 placer">&nbsp;</div>
                 </div>
             </form>
         </div>

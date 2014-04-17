@@ -7001,7 +7001,7 @@ font-family: 'Allerta', sans-serif;
 ----------------------------------------------*/
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 18px;
 }
 
@@ -7237,6 +7237,13 @@ feature classes
   border-radius: 300px;
   box-shadow: 0px 6px 8px #c0c0c0;
   transition: all 0.3s ease-in-out;
+}
+
+.affix {
+  width: 25%;
+  right: 0;
+  margin-left: 75%;
+  margin-right: 8.3333%;
 }
 
 #nat-footer {

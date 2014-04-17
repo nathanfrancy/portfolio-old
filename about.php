@@ -12,12 +12,12 @@
                                 <strong>me</strong>
                             </div>
                             <div class="col-sm-9 about-content">
-                                <span id="0">student at ucm, studying cis.</span>&nbsp;
-                                <span id="2">enjoy creating great websites.</span>&nbsp;
-                                <span id="3">currently in warrensburg, mo.</span>&nbsp;
-                                <span id="6">obsessed with web.</span>&nbsp;
-                                <span id="7">lover of coke-a-cola.</span>&nbsp;
-                                <span id="8">happy boyfriend of 3 years.</span>&nbsp;
+                                <span id="0">student at ucm, studying cis.</span>&nbsp;<br />
+                                <span id="2">enjoy creating great websites.</span>&nbsp;<br />
+                                <span id="3">currently in warrensburg, mo.</span>&nbsp;<br />
+                                <span id="6">obsessed with web.</span>&nbsp;<br />
+                                <span id="7">lover of coca-cola.</span>&nbsp;<br />
+                                <span id="8">happy boyfriend of 3 years.</span>&nbsp;<br />
                                 <span id="9">chipotle addict.</span>
                             </div>
                         </div>
@@ -27,24 +27,24 @@
                                 <strong>i'm great with</strong>
                             </div>
                             <div class="col-sm-9 about-content">
-                                <span id="10">html5.</span>&nbsp;
-                                <span id="11">css3.</span>&nbsp;
-                                <span id="12">php.</span>&nbsp;
-                                <span id="13">java.</span>&nbsp;
-                                <span id="14">javascript.</span>&nbsp;
-                                <span id="15">jquery, jquery ui, & jquery mobile.</span>&nbsp;
-                                <span id="16">sass.</span>&nbsp;
-                                <span id="17">terminal.</span>&nbsp;
-                                <span id="18">grunt.</span>&nbsp;
-                                <span id="19">apache.</span>&nbsp;
-                                <span id="20">git.</span>&nbsp;
-                                <span id="21">wordpress.</span>&nbsp;
-                                <span id="22">mysql & sql.</span>&nbsp;
-                                <span id="23">mobile & responsive design.</span>&nbsp;
-                                <span id="24">subversion.</span>&nbsp;
-                                <span id="25">creative suite.</span>&nbsp;
-                                <span id="27">eclipse.</span>&nbsp;
-                                <span id="28">bootstrap.</span>
+                                <span id="10">html5.</span>&nbsp;<br />
+                                <span id="11">css3.</span>&nbsp;<br />
+                                <span id="12">php.</span>&nbsp;<br />
+                                <span id="13">java.</span>&nbsp;<br />
+                                <span id="14">javascript.</span>&nbsp;<br />
+                                <span id="15">jquery, jquery ui, & jquery mobile.</span>&nbsp;<br />
+                                <span id="16">sass.</span>&nbsp;<br />
+                                <span id="17">terminal.</span>&nbsp;<br />
+                                <span id="18">grunt.</span>&nbsp;<br />
+                                <span id="19">apache.</span>&nbsp;<br />
+                                <span id="20">git.</span>&nbsp;<br />
+                                <span id="21">wordpress.</span>&nbsp;<br />
+                                <span id="22">mysql & sql.</span>&nbsp;<br />
+                                <span id="23">mobile & responsive design.</span>&nbsp;<br />
+                                <span id="24">subversion.</span>&nbsp;<br />
+                                <span id="25">creative suite.</span>&nbsp;<br />
+                                <span id="27">eclipse.</span>&nbsp;<br />
+                                <span id="28">bootstrap.</span><br />
                             </div>
                         </div>
                         <br />
@@ -53,10 +53,10 @@
                                 <strong>interested in</strong>
                             </div>
                             <div class="col-sm-9 about-content">
-                                <span id="31">kansas city sports.</span>&nbsp;
-                                <span id="32">new technology.</span>&nbsp;
-                                <span id="33">twitter.</span>&nbsp;
-                                <span id="34">good music.</span>
+                                <span id="31">kansas city sports.</span>&nbsp;<br />
+                                <span id="32">new technology.</span>&nbsp;<br />
+                                <span id="33">twitter.</span>&nbsp;<br />
+                                <span id="34">good music.</span><br />
                             </div>
                         </div>
                         <br />
@@ -65,15 +65,15 @@
                                 <strong>currently rocking</strong>
                             </div>
                             <div class="col-sm-9 about-content">
-                                <span id="35">samsung galaxy note 3.</span>&nbsp;
-                                <span id="36">macbook pro with retina display.</span>&nbsp;
-                                <span id="37">windows 8 desktop.</span>&nbsp;
+                                <span id="35">samsung galaxy note 3.</span>&nbsp;<br />
+                                <span id="36">macbook pro with retina display.</span>&nbsp;<br />
+                                <span id="37">windows 8 desktop.</span>&nbsp;<br />
                                 <span id="38">ipad mini.</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3" data-spy="affix" data-offset-top="100">
                     <center>
                         <div class="littlenathan img-responsive"></div>
                         <br />
