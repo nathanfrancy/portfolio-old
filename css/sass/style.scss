@@ -125,7 +125,7 @@ feature classes
     }
 }
 
-@for $i from 0 through 7 {
+@for $i from 0 through 8 {
     .feature-box-#{$i} {
         background-image: url(../../img/features/#{$i}.png);
     }

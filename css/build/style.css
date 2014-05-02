@@ -7133,6 +7133,10 @@ feature classes
   background-image: url(../../img/features/7.png);
 }
 
+.feature-box-8 {
+  background-image: url(../../img/features/8.png);
+}
+
 .feature-preview {
   max-width: 100%;
 }

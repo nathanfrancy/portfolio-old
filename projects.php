@@ -88,11 +88,38 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="feature-box feature-box-7 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="7">
+                        <div class="feature-box feature-box-8 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="8">
                             &nbsp;
                         </div>
                     </div>
                     
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-7 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="7">
+                            &nbsp;
+                        </div>
+                    </div>
+
+                    <!--
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-4 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="4">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-5 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="5">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-7 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="7">
+                            &nbsp;
+                        </div>
+                    </div>
+
+                    -->
                 </div>
 
             </div>
