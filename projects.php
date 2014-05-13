@@ -54,16 +54,20 @@
                             &nbsp;
                         </div>
                     </div>
+                    
+                    
                     <div class="col-sm-3">
                         <div class="feature-box feature-box-3 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="3">
                             &nbsp;
                         </div>
                     </div>
+                    
                     <div class="col-sm-3">
-                        <div class="feature-box feature-box-2 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="2">
+                        <div class="feature-box feature-box-9 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="9">
                             &nbsp;
                         </div>
                     </div>
+                    
                     <div class="col-sm-3">
                         <div class="feature-box feature-box-1 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="1">
                             &nbsp;
@@ -72,16 +76,19 @@
                 </div>
 
                 <div class="row">
+                    
                     <div class="col-sm-3">
-                        <div class="feature-box feature-box-0 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="0">
+                        <div class="feature-box feature-box-10 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="10">
                             &nbsp;
                         </div>
                     </div>
+                    
                     <div class="col-sm-3">
-                        <div class="feature-box feature-box-4 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="4">
+                        <div class="feature-box feature-box-2 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="2">
                             &nbsp;
                         </div>
                     </div>
+                    
                     <div class="col-sm-3">
                         <div class="feature-box feature-box-5 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="5">
                             &nbsp;
@@ -101,6 +108,19 @@
                             &nbsp;
                         </div>
                     </div>
+                    
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-4 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="4">
+                            &nbsp;
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-3">
+                        <div class="feature-box feature-box-0 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="0">
+                            &nbsp;
+                        </div>
+                    </div>
+                    
 
                     <!--
                     <div class="col-sm-3">

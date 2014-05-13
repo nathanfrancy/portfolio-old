@@ -54,6 +54,18 @@
             "description" : "<p>I did this project as a part of a group project my senior year, for my Web Programming class at UCM. It's built with PHP + MySQL and some jQuery here and there.</p><p>The site features the ability to <a href='http://www.nathanfrancy.com/book-xchange/register.php'>register for an account</a>, and then be able to sign in to see books that have been added and are available for purchase. You can purchase others' books, although inputting purchase information was outside the project scope, so you will basically just click a couple buttons to purchase, and the book will be added to your account.</p>",
             "link" : "http://www.nathanfrancy.com/book-xchange"
             
+        },
+        {
+            "id" : 9,
+            "title" : "Baseball JSP Project",
+            "description" : "<p>This was a group project that was put together in a team of 3 in my advanced java class at UCM, Spring 2014. The web application features the use of java - jsp's, servlets, html5, css3 and javascript along with bootstrap front end framework. The app also connects to a mysql database which tracks teams, players and games.</p><p>The user starts by initiating a game from the homepage between two teams, and simply presses buttons using the In-Game page to record events. When event buttons are clicked, a servlet constructs an object with all the current status variables of the particular game, does what it needs to do based on what button is clicked - strike, ball, single, home run, etc. - saves the changes to the database, and reloads the page reflecting said changes.</p><p>One of the biggest tasks we had for the school assignment was making sure that our java resources were divided - database utility classes (basically any java file with sql in it or directly interacting with the database) needed to be separate from actual business logic classes. We designed the app this way and the project was much more organized because of this.</p><p>This webapp doesn't currently have an online home as of right now.</p>",
+            "link" : "#"
+        },
+        {
+            "id" : 10,
+            "title" : "Nathan Francy Portfolio Website",
+            "description" : "<p>I'm covering my portfolio website in a portfolio piece because I took a different approach to this site than what I usually do. There's no database back end, and all of the data that needs to load on the page is structured using <a href='js/projects.json'>json</a> instead. </p><p>How it basically works is each project block has an id value, and when the block is clicked on it uses that id value to load the data for the corresponding piece into the modal window. This makes it very easy to add and update information on the fly, as I basically only need to edit the json file to change the data of a piece. Not that a database is that difficult, but for something like this it was the perfect opportunity to sortof fake a web service and get to know json a little bit more, and ways to play with it using jquery.</p>",
+            "link" : "http://www.nathanfrancy.com"
         }
     ]
 }

@@ -30,7 +30,7 @@
                                 <span id="10">html5.</span>&nbsp;<br />
                                 <span id="11">css3.</span>&nbsp;<br />
                                 <span id="12">php.</span>&nbsp;<br />
-                                <span id="13">java.</span>&nbsp;<br />
+                                <span id="13">java, jsp, servlets.</span>&nbsp;<br />
                                 <span id="14">javascript.</span>&nbsp;<br />
                                 <span id="15">jquery, jquery ui, & jquery mobile.</span>&nbsp;<br />
                                 <span id="16">sass.</span>&nbsp;<br />
