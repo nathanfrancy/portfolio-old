@@ -177,10 +177,10 @@ feature classes
     }
 }
 
-.social-f {
+.social-g {
     
     &:hover {
-        background-color: #3b5896;
+        background-color: #000000;
         opacity: 1;
     }
 }
@@ -267,7 +267,7 @@ feature classes
 
 @media all and (max-width: 768px) {
     .nat-head h1 {
-        font-size: 50px;
+        font-size: 60px;
     }
     .feature-box {
         width: 80%;
@@ -276,6 +276,9 @@ feature classes
     }
     .placer {
         height: 0px !important;
+    }
+    .about-content {
+        text-align: center;
     }
 }
 
