@@ -7018,7 +7018,7 @@ feature classes
   color: white;
   padding-top: 40px;
   padding-bottom: 40px;
-  box-shadow: 0px 5px 10px #7a7a7a;
+  box-shadow: 0px 3px 8px #7a7a7a;
 }
 .nat-head .circle {
   background-color: white;
@@ -7150,14 +7150,14 @@ feature classes
 }
 
 .social-box {
-  width: 110px;
+  width: 74px;
   margin: 0 auto;
   position: fixed;
   padding-bottom: 5px;
   paddint-top: 5px;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.55);
 }
 
 .social {
@@ -7262,6 +7262,16 @@ feature classes
   color: black;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.interested {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.about-label strong {
+  border-bottom: 1px black dotted;
+  display: block;
 }
 
 @media all and (max-width: 768px) {

@@ -3,6 +3,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="css/build/style.min.css">
         <script src="js/build/scripts.min.js"></script>
+        
+        <title>Nathan Francy Project Portfolio</title>
+        <meta name="description" content="See Nathan Francy's online project portfolio"> 
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+        
     </head>
     <body>
 

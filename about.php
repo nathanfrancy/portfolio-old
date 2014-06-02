@@ -9,7 +9,7 @@
                     <div class="about-tabs">
                         <div class="row">
                             <div class="col-sm-3 about-label">
-                                <strong>me</strong>
+                                <strong>random facts</strong>
                             </div>
                             <div class="col-sm-9 about-content">
                                 <span id="0">student at ucm, studying cis.</span>&nbsp;<br />

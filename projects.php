@@ -143,6 +143,14 @@
                 </div>
 
             </div>
+            
+            <div class="interested">
+                <h2>Interested in doing a project with me?</h2>
+                <a href="contact.php" class="btn btn-default">
+                    Get in touch &nbsp;
+                    <span class="glyphicon glyphicon-arrow-right"></span>
+                </a>
+            </div>
 
         </div>
 
