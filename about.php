@@ -1,7 +1,6 @@
         <?php require('header.php'); ?>
 
         <div class="container nat-about">
-            
             <div class="row ">
                 <div class="col-sm-1 placer">&nbsp;</div>
                 <div class="col-sm-7">
