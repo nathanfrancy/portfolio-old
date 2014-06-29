@@ -11,9 +11,9 @@
                                 <strong>random facts</strong>
                             </div>
                             <div class="col-sm-9 about-content">
-                                <span id="0">student at ucm, studying cis.</span>&nbsp;<br />
+                                <span id="0">student studying cis.</span>&nbsp;<br />
                                 <span id="2">enjoy creating great websites.</span>&nbsp;<br />
-                                <span id="3">currently in warrensburg, mo.</span>&nbsp;<br />
+                                <span id="3">currently in kansas city, mo.</span>&nbsp;<br />
                                 <span id="6">obsessed with web.</span>&nbsp;<br />
                                 <span id="7">lover of coca-cola.</span>&nbsp;<br />
                                 <span id="8">happy boyfriend of 3 years.</span>&nbsp;<br />
@@ -64,10 +64,10 @@
                                 <strong>currently rocking</strong>
                             </div>
                             <div class="col-sm-9 about-content">
-                                <span id="35">samsung galaxy note 3.</span>&nbsp;<br />
-                                <span id="36">macbook pro with retina display.</span>&nbsp;<br />
-                                <span id="37">windows 8 desktop.</span>&nbsp;<br />
-                                <span id="38">ipad mini.</span>
+                                <span id="37">asus desktop, ubuntu 14.04 lts.</span>&nbsp;<br />
+                                <span id="36">macbook pro with retina display, osx mavericks 10.9.3.</span>&nbsp;<br />
+                                <span id="35">galaxy note 3, android 4.4.2.</span>&nbsp;<br />
+                                <span id="38">ipad mini, ios 7.1.1.</span>
                             </div>
                         </div>
                     </div>
