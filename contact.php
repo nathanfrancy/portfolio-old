@@ -200,26 +200,26 @@
     function submitEmail() {
         var contactform = $("#sendmemail").serialize();
         
-        $.ajax({
-            type: "POST",
-            url: "sendmail.php",
-            data: contactform,
-            success: function() {
-                $("#successmessage").html("Thanks for the message! I'll get back with you as soon as I can.");
-                $("#successalert").slideDown();
-                $("#name, #email, #phone, #message").removeClass("danger-errors");
-                $("#name, #email, #phone, #message").val('');
-                $("#name, #email, #phone, #message").attr("placeholder", "");
-                $(".sendmemail").addClass("disabled");
-            },
-            error: function() {
-                $("#successmessage").html("Something went wrong. Please try again.");
-                $("#successalert").slideDown();
-            }
-        });
+        if (nameValid && emailValid && phoneValid && messageValid) {
+             $.ajax({
+                type: "POST",
+                url: "sendmail.php",
+                data: contactform,
+                success: function() {
+                    $("#successmessage").html("Thanks for the message! I'll get back with you as soon as I can.");
+                    $("#successalert").slideDown();
+                    $("#name, #email, #phone, #message").removeClass("danger-errors");
+                    $("#name, #email, #phone, #message").val('');
+                    $("#name, #email, #phone, #message").attr("placeholder", "");
+                    $(".sendmemail").addClass("disabled");
+                },
+                error: function() {
+                    $("#successmessage").html("Something went wrong. Please try again.");
+                    $("#successalert").slideDown();
+                }
+            });
+        }
     }
-
-    
 </script>
 
 <?php include( 'footer.php'); ?>
