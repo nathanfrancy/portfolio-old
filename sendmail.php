@@ -12,7 +12,7 @@ if (sizeof($_POST)) {
 
     $emailstring = "\n Name: " . $Name . "\n Email: " . $Email . "\n Phone: " . $Phone . "\n Message: " . $Message . "\n\n Sent " . $Date . "  " . $Time;
     mail("nathanfrancy@gmail.com", "Contact Form", $emailstring, $headers) or mysql_error();
-    header("Location: contact.php?message=1");
+    //header("Location: contact.php?message=1");
 }
 
 function sanitize($s) {

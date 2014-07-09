@@ -275,6 +275,22 @@ feature classes
     display: block;
 }
 
+.danger-errors {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+#successalert {
+    display: none;
+}
+
+/**
+ ** form input areas */
+#name, #email, #phone, #message {
+    transition: background-color ease-in-out 0.5s;
+}
+
 @media all and (max-width: 768px) {
     .nat-head h1 {
         font-size: 60px;
