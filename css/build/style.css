@@ -7070,6 +7070,8 @@ feature classes
 
 .box {
   padding-top: 50px;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .feature-title {
@@ -7307,6 +7309,10 @@ feature classes
 
   .about-content {
     text-align: center;
+  }
+
+  .box {
+    max-width: 100%;
   }
 }
 @media all and (max-width: 440px) {

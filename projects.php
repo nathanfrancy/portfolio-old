@@ -47,102 +47,9 @@
                 </div>
             </div>
 
-            <div class="box">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-6 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="6">
-                            &nbsp;
-                        </div>
-                    </div>
-                    
-                    
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-3 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="3">
-                            &nbsp;
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-9 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="9">
-                            &nbsp;
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-1 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="1">
-                            &nbsp;
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-10 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="10">
-                            &nbsp;
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-2 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="2">
-                            &nbsp;
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-5 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="5">
-                            &nbsp;
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-8 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="8">
-                            &nbsp;
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-7 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="7">
-                            &nbsp;
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-4 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="4">
-                            &nbsp;
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-0 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="0">
-                            &nbsp;
-                        </div>
-                    </div>
-                    
-
-                    <!--
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-4 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="4">
-                            &nbsp;
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-5 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="5">
-                            &nbsp;
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="feature-box feature-box-7 img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="7">
-                            &nbsp;
-                        </div>
-                    </div>
-
-                    -->
-                </div>
-
-            </div>
+            <div class="box"></div>
+            
+        </div>
             
             <div class="interested">
                 <h2>Interested in doing a project with me?</h2>
@@ -152,50 +59,78 @@
                 </a>
             </div>
 
-        </div>
-
         <script>
-        $(".projects").addClass('active');
-        // get the projects and assign to variable 'projects'
-        var projects;
-        $.getJSON('js/projects.json', function(data) {
-            projects = data;
-        });
+        var projectData;
 
         $(document).ready(function() {
-            $(".feature-click").click(function() {
+            $(".projects").addClass('active');
+
+            $.getJSON('js/projects.json', function(data) {
+                // put the projects in projectData
+                projectData = data;
+        
+                // build the project html from json object
+                var projectHTML = "";
+                for (index = 0; index < projectData.length; ++index) {
+                    projectHTML += getPieceTemplate(projectData[index].id);            
+                }
+                
+                // place the project html into the view
+                $(".box").html(projectHTML);
+                
+                // formatting, placing .row around every four .col-sm-3 columns per bootstrap requirements
+                var divs = $(".box > .col-sm-3");
+                for(var i = 0; i < divs.length; i+=4) {
+                    divs.slice(i, i+4).wrapAll("<div class='row'></div>");
+                }
+            });
+
+            // update the dom in .box when .feature-click is clicked, because manipulating it above
+            // handler will update the modal window with the correct values (title, images, description, link, etc.)
+            $(".box").on('click', '.feature-click', function() {
                 var theId = $(this).attr('id');
                 $('.carousel').carousel(0);
-                $(".feature-title").text(projects.pieces[theId].title);
-                $(".feature-desc").html(projects.pieces[theId].description);
-                $(".feature-preview-1").attr('src', "img/features/preview/1/" + projects.pieces[theId].id + ".png");
-                $(".feature-preview-2").attr('src', "img/features/preview/2/" + projects.pieces[theId].id + ".png");
-                $(".feature-preview-3").attr('src', "img/features/preview/3/" + projects.pieces[theId].id + ".png");
-                $(".feature-linkage").attr('href', projects.pieces[theId].link);
-                $(".panel").css("background-color", projects.pieces[theId].bg);
-                $(".panel").css("color", projects.pieces[theId].color);
+                $(".feature-title").text(projectData[theId].title);
+                $(".feature-desc").html(projectData[theId].description);
+                $(".feature-preview-1").attr('src', "img/features/preview/1/" + projectData[theId].id + ".png");
+                $(".feature-preview-2").attr('src', "img/features/preview/2/" + projectData[theId].id + ".png");
+                $(".feature-preview-3").attr('src', "img/features/preview/3/" + projectData[theId].id + ".png");
+                $(".feature-linkage").attr('href', projectData[theId].link);
+                $(".panel").css("background-color", projectData[theId].bg);
+                $(".panel").css("color", projectData[theId].color);
                 $(".feature-desc").hide();
             });
+            
+            // show and hide the 
             $(".feature-desc-button").click(function() {
-                $(".feature-desc").toggle();
+                $(".feature-desc").slideToggle();
             });
+
+            // template used for generating HTML for each project
+            function getPieceTemplate(id) {
+                return '<div class="col-sm-3"><div class="feature-box feature-box-'+ id +' img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="'+ id +'">&nbsp;</div></div>';
+            }
+            
+            // preload images in each
+            $.fn.preload = function() {
+                this.each(function() {
+                    $('<img/>')[0].src = this;
+                });
+            };
+
+            $([
+                'img/features/1.png',
+                'img/features/2.png',
+                'img/features/3.png',
+                'img/features/4.png',
+                'img/features/5.png',
+                'img/features/6.png',
+                'img/features/7.png',
+                'img/features/8.png',
+                'img/features/9.png',
+                'img/features/10.png'
+            ]).preload();
         });
-
-        $.fn.preload = function() {
-            this.each(function() {
-                $('<img/>')[0].src = this;
-            });
-        };
-
-        $([
-            'img/features/0.png',
-            'img/features/1.png',
-            'img/features/2.png',
-            'img/features/3.png',
-            'img/features/4.png',
-            'img/features/5.png',
-            'img/features/6.png'
-        ]).preload();
         </script>
 
 <?php
