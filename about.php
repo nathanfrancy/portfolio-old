@@ -7,68 +7,70 @@
 
                     <div class="about-tabs">
                         <div class="row">
-                            <div class="col-sm-3 about-label">
+                            <div class="col-sm-12 about-label">
                                 <strong>random facts</strong>
-                            </div>
-                            <div class="col-sm-9 about-content">
-                                <span id="0">student studying cis.</span>&nbsp;<br />
-                                <span id="2">enjoy creating great websites.</span>&nbsp;<br />
-                                <span id="3">currently in kansas city, mo.</span>&nbsp;<br />
-                                <span id="6">obsessed with web.</span>&nbsp;<br />
-                                <span id="7">lover of coca-cola.</span>&nbsp;<br />
-                                <span id="8">happy boyfriend of 3 years.</span>&nbsp;<br />
-                                <span id="9">chipotle addict.</span>
+                                <div class="about-content">
+                                    <span id="0">student studying cis.</span>&nbsp;<br />
+                                    <span id="2">enjoy creating great websites.</span>&nbsp;<br />
+                                    <span id="3">currently in kansas city, mo.</span>&nbsp;<br />
+                                    <span id="6">obsessed with web.</span>&nbsp;<br />
+                                    <span id="7">lover of coca-cola.</span>&nbsp;<br />
+                                    <span id="8">happy boyfriend of 3 years.</span>&nbsp;<br />
+                                    <span id="9">chipotle addict.</span>
+                                </div>
                             </div>
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-sm-3 about-label">
+                            <div class="col-sm-12 about-label">
                                 <strong>i'm great with</strong>
-                            </div>
-                            <div class="col-sm-9 about-content">
-                                <span id="10">html5.</span>&nbsp;<br />
-                                <span id="11">css3.</span>&nbsp;<br />
-                                <span id="12">php.</span>&nbsp;<br />
-                                <span id="13">java, jsp, servlets.</span>&nbsp;<br />
-                                <span id="14">javascript.</span>&nbsp;<br />
-                                <span id="15">jquery, jquery ui, & jquery mobile.</span>&nbsp;<br />
-                                <span id="16">sass.</span>&nbsp;<br />
-                                <span id="17">terminal.</span>&nbsp;<br />
-                                <span id="18">grunt.</span>&nbsp;<br />
-                                <span id="19">apache.</span>&nbsp;<br />
-                                <span id="20">git.</span>&nbsp;<br />
-                                <span id="21">wordpress.</span>&nbsp;<br />
-                                <span id="22">mysql & sql.</span>&nbsp;<br />
-                                <span id="23">mobile & responsive design.</span>&nbsp;<br />
-                                <span id="24">subversion.</span>&nbsp;<br />
-                                <span id="25">creative suite.</span>&nbsp;<br />
-                                <span id="27">eclipse.</span>&nbsp;<br />
-                                <span id="28">bootstrap.</span><br />
+                                <div class="about-content">
+                                    <span id="10">html5.</span>&nbsp;<br />
+                                    <span id="11">css3.</span>&nbsp;<br />
+                                    <span id="12">php.</span>&nbsp;<br />
+                                    <span id="13">java, jsp, servlets.</span>&nbsp;<br />
+                                    <span id="14">javascript.</span>&nbsp;<br />
+                                    <span id="15">jquery, jquery ui, & jquery mobile.</span>&nbsp;<br />
+                                    <span id="16">sass.</span>&nbsp;<br />
+                                    <span id="17">terminal.</span>&nbsp;<br />
+                                    <span id="18">grunt.</span>&nbsp;<br />
+                                    <span id="19">apache.</span>&nbsp;<br />
+                                    <span id="20">git.</span>&nbsp;<br />
+                                    <span id="21">wordpress.</span>&nbsp;<br />
+                                    <span id="22">mysql & sql.</span>&nbsp;<br />
+                                    <span id="23">mobile & responsive design.</span>&nbsp;<br />
+                                    <span id="24">subversion.</span>&nbsp;<br />
+                                    <span id="25">creative suite.</span>&nbsp;<br />
+                                    <span id="27">eclipse.</span>&nbsp;<br />
+                                    <span id="28">bootstrap.</span><br />
+                                </div>
                             </div>
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-sm-3 about-label">
+                            <div class="col-sm-12 about-label">
                                 <strong>interested in</strong>
+                                <div class="about-content">
+                                    <span id="31">kansas city sports.</span>&nbsp;<br />
+                                    <span id="32">new technology.</span>&nbsp;<br />
+                                    <span id="33">twitter.</span>&nbsp;<br />
+                                    <span id="34">good music.</span><br />
+                                </div>
                             </div>
-                            <div class="col-sm-9 about-content">
-                                <span id="31">kansas city sports.</span>&nbsp;<br />
-                                <span id="32">new technology.</span>&nbsp;<br />
-                                <span id="33">twitter.</span>&nbsp;<br />
-                                <span id="34">good music.</span><br />
-                            </div>
+                            
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-sm-3 about-label">
+                            <div class="col-sm-12 about-label">
                                 <strong>currently rocking</strong>
+                                <div class="about-content">
+                                    <span id="37">asus desktop, ubuntu 14.04 lts.</span>&nbsp;<br />
+                                    <span id="36">macbook pro with retina display, osx mavericks 10.9.3.</span>&nbsp;<br />
+                                    <span id="35">galaxy note 3, android 4.4.2.</span>&nbsp;<br />
+                                    <span id="38">ipad mini, ios 7.1.1.</span>
+                                </div>
                             </div>
-                            <div class="col-sm-9 about-content">
-                                <span id="37">asus desktop, ubuntu 14.04 lts.</span>&nbsp;<br />
-                                <span id="36">macbook pro with retina display, osx mavericks 10.9.3.</span>&nbsp;<br />
-                                <span id="35">galaxy note 3, android 4.4.2.</span>&nbsp;<br />
-                                <span id="38">ipad mini, ios 7.1.1.</span>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

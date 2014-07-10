@@ -73,6 +73,8 @@
 </div>
 
 <script>
+    $(".contact").addClass("active");
+    
     // key off to submit the form, will only be true if all fields are satisfied
     var formValid = false;
     
@@ -84,7 +86,7 @@
     
     /*====
       ==== On keypress and focusout each input, validate that field */
-    $("#name").keypress(function() {
+    $("#name").keydown(function() {
         validateName();
     });
     $("#name").focusout(function() {
@@ -193,7 +195,6 @@
     
     $('.sendmemail').click(function (e) {
         e.preventDefault();
-        
         submitEmail();
     });
     

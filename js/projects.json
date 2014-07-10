@@ -3,68 +3,131 @@
         {
             "id": 0,
             "title": "City of Warrensburg Website",
-            "description": "<p>I had the opportunity to rebuild my hometown's city website in the summer of 2012 alongside the System Administrator and it was a great experience!</p><p>The main goals of the new website were to: allow multiple users to enter and update information, to create a new look that better reflected the City of Warrensburg, and to create a good hierarchy structure of pages; and I suppose it was one of my goals to make the site responsive and able to be viewed on tablet and mobile devices along with desk and laptops.</p><p>Given these goals, we started on the site by sending out forms asking for opinions on what they wanted the site to look like and how to be structured. There was lots of interest and lots of great feedback from the community!</p><p>The website ended up being implemented with a custom install of Wordpress Content Management System, which handled all of the users we needed, and gave permissions to certain users within certain departments, etc.</p><p>Overall, the website turned out great, and I think the city workers and the community are very pleased with it!</p>",
-            "link": "http://www.warrensburg-mo.com"
+            "description": "<p>I redesigned the City of Warrensburg's website with Wordpress CMS. The City</p>",
+            "link": "http://www.warrensburg-mo.com",
+            "bgColor" : "#4c255e",
+            "color" : "white",
+            "skills" : [
+                { "name" : "php" },
+                { "name" : "html" },
+                { "name" : "css" },
+                { "name" : "javascript/jquery" },
+                { "name" : "wordpress" },
+                { "name" : "apache web server" }
+            ]
         },
         {
             "id": 1,
             "title": "Deca Tickets Application",
-            "description": "<p>This is one of my proudest projects, basically because it was the first bigger web application I designed and deployed; and because it was used heavily and really solved a problem in an organization that I'm part of.</p><p>Our big fundraiser in Collegiate Deca (UCM organization) is to sell Kansas City Chiefs tickets to anyone we can find. In the past, tickets were difficult to sell because at any point in time the sellers had no idea what tickets were available.</p><p>My system had a very easy way to both input and manage tickets; both from 'administrator' and regular 'seller' viewpoints. Administrators managed adding tickets (through a batch add function for a set of seats) as well as users, and sellers were authorized to 'reserve' tickets pending bringing money to an administrator. Upon turning in money, the administrator would mark the reserved tickets as 'sold'.</p><p>The really awesome thing about the application was that it had a nice interface of all the different games, and only showed tickets that were marked as available, always up to date. On top of that, it had mobile support, so it was very easy for someone on-the-go to update tickets, thus not allowing someone else to sell those same tickets to another party.</p><p>Overall, this application was a huge success. We sold out of all of our tickets and I was told by several people that it was a lot less of a headache this time around.</p>",
-            "link": "http://www.nathanfrancy.com/decatickets"
+            "description": "",
+            "link": "http://www.nathanfrancy.com/decatickets",
+            "bgColor" : "#000000",
+            "color" : "white",
+            "skills" : [
+                { "name" : "php" },
+                { "name" : "html" },
+                { "name" : "css" },
+                { "name" : "javascript/jquery" }
+            ]
         },
         {
             "id": 2,
             "title": "Hoorfar Law Website",
-            "description": "<p>The Hoorfar Law Firm Website was a very interesting site to build as I hadn't really done any work for a Law client before.</p><p>I built the main site with static html5 and css3, as the site does not change very often (I still perform updates on the site from time to time). A couple of the pages rely on jQuery as well, and the blog portion is handled by a WordPress install in a separate directory, which I've matched the original theme to.</p><p>I also built a small web application for this website which allows an administrator to login and change court information for visitors to see also.</p>",
-            "link": "http://www.hoorfarlaw.com"
+            "description": "",
+            "link": "http://www.hoorfarlaw.com",
+            "bgColor" : "#f0ad4e",
+            "color" : "white",
+            "skills" : [
+                { "name" : "php" }
+            ]
         },
         {
             "id": 3,
             "title": "UCM University Store Website",
-            "description": "<p>I started working for the bookstore when I was newly a freshman at UCM, and quickly moved into the role of website designer for the store. While working here since July 2010, there have been multiple redesigns, and in November 2013 I released my last redesign of the store site as I'm graduating and turning the site over to another undergrad student.</p><p>The store site is build with MBS inSite system, which does pretty much all of the back end processing and generating merchandise lists and products. The system is linked to our cash registers and everyone else in the store, so it's a nice system to use. This makes my job a little bit easier as I mainly do upkeep for the site like updating promotional banners, adding and removing content from pages, and managing calendars for the store along with doing all of my own design for the actual page layout.</p>",
-            "link": "http://www.ucmbookstore.com"
+            "description": "",
+            "link": "http://www.ucmbookstore.com",
+            "bgColor" : "rgb(237, 28, 36)",
+            "color" : "white",
+            "skills" : [
+                { "name" : "php" }
+            ]
         },
         {
             "id": 4,
             "title": "UCM Deca Website",
-            "description": "<p>I just couldn't get enough of building for UCM Deca, so in the Spring of 2014 I designed and launched a new chapter website which features updates, calendar events, about information and an area to submit interest if you want to join the organization.</p> <p>I built the site by way of a custom theme in Wordpress content management system, which also handles our updates, calendar events and form submissions. The website is optimized for both desktop and tablet/mobile platforms.</p>",
-            "link": "http://www.ucmdeca.org"
+            "description": "",
+            "link": "http://www.ucmdeca.org",
+            "bgColor" : "#f0ad4e",
+            "color" : "white",
+            "skills" : [
+                { "name" : "php" }
+            ]
         },
         {
             "id" : 5,
             "title" : "Pets",
-            "description" : "I designed this website for my girlfriend and I to post images of all the pets in our life. In particular I liked the idea of doing this project to gain an idea of how to categorize the pets by making a category for each pet, and using this organization to generate dynamic pages using indexes from the database. My design supported the idea of 'tagging' more than one pet in each picture (since that happens quite often). This gives the user a way to only browse images they're interested in. I built this site from the ground up with design help from my girlfriend (she was calling all the shots at one point). It's also build with media queries, so you can browse on any device your heart desires.",
-            "link" : "http://www.nathanfrancy.com/pets"
+            "description" : "",
+            "link" : "http://www.nathanfrancy.com/pets",
+            "bgColor" : "#428bca",
+            "color" : "white",
+            "skills" : [
+                { "name" : "php" }
+            ]
         },
         {
             "id" : 6,
             "title" : "Tasks",
-            "description" : "<p>I built this web application over my 2013 Christmas Break (yeah, I was that bored). It's build with a more object-oriented approach in PHP - along with MySQL, HTML5, etc. I'm incorporating Bootstrap css and javascript framework along with jQuery in places.</p><p>The application features the ability to add and modify 'tasks' which compile into 'lists', which you can also add and edit. This adds a little organization to putting your tasklists together. You can set a due date for certain tasks to be completed, and can move them from list to list as well. The app is also built to manage many user accounts (login & logout), as lists are associated with the user that is logged in.</p><p>There is currently no way to sign yourself up for an account, but if you <a href='contact.php'>get in touch with me</a> I can give you a username to demo with.</p>",
-            "link" : "http://www.nathanfrancy.com/tasks"
+            "description" : "",
+            "link" : "http://www.nathanfrancy.com/tasks",
+            "bgColor" : "#428bca",
+            "color" : "white",
+            "skills" : [
+                { "name" : "php" }
+            ]
         },
         {
             "id" : 7,
             "title" : "Bittersweet Place of Warrensburg",
-            "description" : "<p>This was a project that I did for the local organization Bittersweet Place, which is a free program offering help for children and teens with losing a loved one.</p><p>The project was done with Wordpress CMS; Bittersweet also uses the site to enroll new children and teens, as well as letting people submit interest in volunteering. There is lots of great content, which the organization handles completely on their own.</p>",
-            "link" : "http://www.bittersweetplace.org"
+            "description" : "",
+            "link" : "http://www.bittersweetplace.org",
+            "bgColor" : "#428bca",
+            "color" : "white",
+            "skills" : [
+                { "name" : "html" }
+            ]
         },
         {
             "id" : 8,
             "title" : "Book Xchange",
-            "description" : "<p>I did this project as a part of a group project my senior year, for my Web Programming class at UCM. It's built with PHP + MySQL and some jQuery here and there.</p><p>The site features the ability to <a href='http://www.nathanfrancy.com/book-xchange/register.php'>register for an account</a>, and then be able to sign in to see books that have been added and are available for purchase. You can purchase others' books, although inputting purchase information was outside the project scope, so you will basically just click a couple buttons to purchase, and the book will be added to your account.</p>",
-            "link" : "http://www.nathanfrancy.com/book-xchange"
+            "description" : "",
+            "link" : "http://www.nathanfrancy.com/book-xchange",
+            "bgColor" : "#428bca",
+            "color" : "white",
+            "skills" : [
+                { "name" : "html" }
+            ]
             
         },
         {
             "id" : 9,
             "title" : "Baseball JSP Project",
-            "description" : "<p>This was a group project that was put together in a team of 3 in my advanced java class at UCM, Spring 2014. The web application features the use of java - jsp's, servlets, html5, css3 and javascript along with bootstrap front end framework. The app also connects to a mysql database which tracks teams, players and games.</p><p>The user starts by initiating a game from the homepage between two teams, and simply presses buttons using the In-Game page to record events. When event buttons are clicked, a servlet constructs an object with all the current status variables of the particular game, does what it needs to do based on what button is clicked - strike, ball, single, home run, etc. - saves the changes to the database, and reloads the page reflecting said changes.</p><p>One of the biggest tasks we had for the school assignment was making sure that our java resources were divided - database utility classes (basically any java file with sql in it or directly interacting with the database) needed to be separate from actual business logic classes. We designed the app this way and the project was much more organized because of this.</p><p>This webapp doesn't currently have an online home as of right now.</p>",
-            "link" : "#"
+            "description" : "",
+            "link" : "#",
+            "bgColor" : "#428bca",
+            "color" : "white",
+            "skills" : [
+                { "name" : "html" }
+            ]
         },
         {
             "id" : 10,
             "title" : "Nathan Francy Portfolio Website",
-            "description" : "<p>I'm covering my portfolio website in a portfolio piece because I took a different approach to this site than what I usually do. There's no database back end, and all of the data that needs to load on the page is structured using <a href='js/projects.json'>json</a> instead. </p><p>How it basically works is each project block has an id value, and when the block is clicked on it uses that id value to load the data for the corresponding piece into the modal window. This makes it very easy to add and update information on the fly, as I basically only need to edit the json file to change the data of a piece. Not that a database is that difficult, but for something like this it was the perfect opportunity to sortof fake a web service and get to know json a little bit more, and ways to play with it using jquery.</p>",
-            "link" : "http://www.nathanfrancy.com"
+            "description" : "",
+            "link" : "http://www.nathanfrancy.com",
+            "bgColor" : "#428bca",
+            "color" : "white",
+            "skills" : [
+                { "name" : "html" }
+            ]
         }
     ]

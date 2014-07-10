@@ -24,6 +24,10 @@ body {
     background: $yellow;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 /*
 feature classes
 ----------------------------------------------*/
@@ -31,8 +35,8 @@ feature classes
     background-color: black;
     background-image: url(../../img/binding_dark.png);
     color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     box-shadow: 0px 3px 8px #7a7a7a;
 
     .circle {
@@ -52,13 +56,12 @@ feature classes
     
     h1 {
         font-family: 'Allerta', sans-serif;
-        font-size: 50px;
         text-align: center;
         line-height: 1em;
-        font-size: 95px;
+        font-size: 55px;
         //text-transform: uppercase;
         position: relative;
-        letter-spacing: -5px;
+        letter-spacing: -3px;
         opacity: 1;
         
             
@@ -89,6 +92,7 @@ feature classes
     }
     .active {
         font-weight: bold;
+        border-bottom: 1px white dotted;
     }
 }
 
@@ -101,9 +105,16 @@ feature classes
 .feature-title {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
 }
 .feature-desc {
     display: none;
+    
+    p {
+        text-indent: 20px;
+        font-size: 14px;
+    }
 }
 
 .feature-box {
@@ -124,6 +135,19 @@ feature classes
     
     &:hover {
         opacity: 1;
+    }
+}
+
+.feature-skills {
+    font-size: 14px !important;
+    font-weight: 100 !important;
+    
+    span {
+        font-weight: 100 !important;
+    }
+    .label-default {
+        background-color: black !important;
+        opacity: 0.5;
     }
 }
 
@@ -199,8 +223,8 @@ feature classes
     margin-top: 45px;
 
     .about-label {
-        text-align: center;
-        line-height: 30px;
+        text-align: left;
+        line-height: 25px;
     }
     .about-content {
         line-height: 30px;
@@ -293,10 +317,46 @@ feature classes
     transition: background-color ease-in-out 0.5s;
 }
 
-@media all and (max-width: 768px) {
-    .nat-head h1 {
-        font-size: 60px;
+#project-pop {
+    max-width: 100%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+    z-index: 1050;
+    padding: 15px;
+    background-image: url(../../img/moon.png);
+    
+    .projectDetails {
+        max-width: 450px;
+        margin: 0 auto;
     }
+    
+    #carousel-example-generic {
+        box-shadow: 0px 5px 8px rgba(0,0,0,0.5);
+    }
+}
+
+#overlay {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:#000;
+    opacity:0.8;
+    z-index:1001;
+    display: none;
+    transition: all ease-in-out 0.5s;
+}
+
+.projectInfo {
+    display: none;
+}
+
+@media all and (max-width: 768px) {
     .feature-box {
         width: 80%;
         margin: 0 auto;
@@ -304,6 +364,9 @@ feature classes
     }
     .placer {
         height: 0px !important;
+    }
+    .about-label strong {
+        text-align: center;
     }
     .about-content {
         text-align: center;
@@ -315,7 +378,12 @@ feature classes
 
 @media all and (max-width: 440px) {
     .nat-head h1 {
-        font-size: 40px;
-        letter-spacing: -2px;
+        font-size: 45px;
+    }
+    .about-label {
+        text-align: center;
+    }
+    .about-content {
+        text-align: center;
     }
 }

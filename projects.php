@@ -1,52 +1,52 @@
         <?php require('header.php'); ?>
 
         <div class="nat-projects container-fluid">
+            
+            <div id="overlay"></div>
+            
+            <div id="project-pop">
+                <div class="projectDetails">
+                    <h2 class="feature-title"></h2>
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h2 class="modal-title feature-title" id="myModalLabel">Modal title</h2>
-                        </div>
-                        <div class="modal-body">
-
-                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-                                <div class="carousel-inner">
-                                    <div class="item active">
-                                        <img src="" alt="" class="feature-preview-1">
-                                    </div>
-                                    <div class="item">
-                                        <img src="" alt="" class="feature-preview-2">
-                                    </div>
-                                    <div class="item">
-                                        <img src="" alt="" class="feature-preview-3">
-                                    </div>
-                                </div>
-
-                                <!-- Controls -->
-                                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                </a>
-                                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                </a>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="" alt="" class="feature-preview-1">
                             </div>
-
-                            <br /><br />
-                            <button class="btn btn-default feature-desc-button"><span class="glyphicon glyphicon-plus-sign"></span> Read about this project</button>
-                            <a href="#" class="btn btn-default feature-linkage" target="_blank">
-                                <span class="glyphicon glyphicon-new-window"></span> Visit this site
-                            </a>
-                            <br />
-                            <br />
-                            <div class="feature-desc"></div>
+                            <div class="item">
+                                <img src="" alt="" class="feature-preview-2">
+                            </div>
+                            <div class="item">
+                                <img src="" alt="" class="feature-preview-3">
+                            </div>
                         </div>
+
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                    <br />
+                    <button class="btn btn-default btn-sm feature-desc-button">
+                        <span class="glyphicon glyphicon-plus-sign"></span> Read about this project
+                    </button>
+                    <a href="#" class="btn btn-default btn-sm feature-linkage" target="_blank">
+                        <span class="glyphicon glyphicon-new-window"></span> Visit this site
+                    </a>
+                    <button class="btn btn-default btn-sm feature-close">
+                        <span class="glyphicon glyphicon-remove"></span> Close
+                    </button>
+                    <br />
+                    <br />
+                    <div class="feature-desc">
+                        <div class="feature-skills"></div>
                     </div>
                 </div>
+                    
             </div>
-
+            
             <div class="box"></div>
             
         </div>
@@ -79,36 +79,56 @@
                 $(".box").html(projectHTML);
                 
                 // formatting, placing .row around every four .col-sm-3 columns per bootstrap requirements
-                var divs = $(".box > .col-sm-3");
-                for(var i = 0; i < divs.length; i+=4) {
-                    divs.slice(i, i+4).wrapAll("<div class='row'></div>");
+                var divs = $(".box > .col-sm-2");
+                for(var i = 0; i < divs.length; i+=6) {
+                    divs.slice(i, i+6).wrapAll("<div class='row'></div>");
                 }
+                $(".row").prepend('<div class="projectInfo"></div>');
+            });
+            
+            $("#overlay").click(function() {
+                $(this).fadeOut();
+                $("#project-pop").slideUp();
             });
 
             // update the dom in .box when .feature-click is clicked, because manipulating it above
             // handler will update the modal window with the correct values (title, images, description, link, etc.)
             $(".box").on('click', '.feature-click', function() {
+                $("#project-pop").slideDown();
+                $("#overlay").show();
                 var theId = $(this).attr('id');
                 $('.carousel').carousel(0);
                 $(".feature-title").text(projectData[theId].title);
-                $(".feature-desc").html(projectData[theId].description);
+                $(".feature-desc").prepend(projectData[theId].description);
                 $(".feature-preview-1").attr('src', "img/features/preview/1/" + projectData[theId].id + ".png");
                 $(".feature-preview-2").attr('src', "img/features/preview/2/" + projectData[theId].id + ".png");
                 $(".feature-preview-3").attr('src', "img/features/preview/3/" + projectData[theId].id + ".png");
                 $(".feature-linkage").attr('href', projectData[theId].link);
-                $(".panel").css("background-color", projectData[theId].bg);
-                $(".panel").css("color", projectData[theId].color);
+                $("#project-pop").css("background-color", projectData[theId].bgColor);
+                $(".feature-desc, .feature-title").css("color", projectData[theId].color);
                 $(".feature-desc").hide();
+                
+                // build skillstring and place into feature box
+                var skillString = "Related Skills: &nbsp;";
+                for (index = 0; index < projectData[theId].skills.length; ++index) {
+                    skillString += '&nbsp;<span class="label label-default">' + projectData[theId].skills[index].name + '</span>';            
+                }
+                $(".feature-skills").html(skillString);
             });
             
-            // show and hide the 
+            // show and hide the description
             $(".feature-desc-button").click(function() {
-                $(".feature-desc").slideToggle();
+                $(".feature-desc").fadeToggle();
+            });
+            
+            $(".feature-close").click(function() {
+                $("#overlay").fadeOut();
+                $("#project-pop").slideUp();
             });
 
             // template used for generating HTML for each project
             function getPieceTemplate(id) {
-                return '<div class="col-sm-3"><div class="feature-box feature-box-'+ id +' img-responsive feature-click" data-toggle="modal" data-target="#myModal" id="'+ id +'">&nbsp;</div></div>';
+                return '<div class="col-sm-2"><div class="feature-box feature-box-'+ id +' img-responsive feature-click" id="'+ id +'">&nbsp;</div></div>';
             }
             
             // preload images in each
