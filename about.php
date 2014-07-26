@@ -8,7 +8,7 @@
                     <div class="about-tabs">
                         <div class="row">
                             <div class="col-sm-12 about-label">
-                                <strong>random facts</strong>
+                                <strong>about</strong>
                                 <div class="about-content">
                                     <span id="0">studying computer information systems.</span>&nbsp;<br />
                                     <span id="2">enjoy creating great websites.</span>&nbsp;<br />
@@ -23,7 +23,7 @@
                         <br />
                         <div class="row">
                             <div class="col-sm-12 about-label">
-                                <strong>i'm great with</strong>
+                                <strong>skills</strong>
                                 <div class="about-content">
                                     <span id="10">html5.</span>&nbsp;<br />
                                     <span id="11">css3.</span>&nbsp;<br />
@@ -49,12 +49,11 @@
                         <br />
                         <div class="row">
                             <div class="col-sm-12 about-label">
-                                <strong>interested in</strong>
+                                <strong>interests</strong>
                                 <div class="about-content">
                                     <span id="31">kansas city sports.</span>&nbsp;<br />
                                     <span id="32">new technology.</span>&nbsp;<br />
                                     <span id="33">twitter.</span>&nbsp;<br />
-                                    <span id="34">good music.</span><br />
                                 </div>
                             </div>
                             
@@ -62,7 +61,7 @@
                         <br />
                         <div class="row">
                             <div class="col-sm-12 about-label">
-                                <strong>currently rocking</strong>
+                                <strong>devices</strong>
                                 <div class="about-content">
                                     <span id="37">asus desktop, ubuntu 14.04 lts.</span>&nbsp;<br />
                                     <span id="36">macbook pro with retina display, osx mavericks 10.9.3.</span>&nbsp;<br />
