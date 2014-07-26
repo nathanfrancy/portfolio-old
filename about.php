@@ -10,7 +10,7 @@
                             <div class="col-sm-12 about-label">
                                 <strong>random facts</strong>
                                 <div class="about-content">
-                                    <span id="0">studying computer informations systems.</span>&nbsp;<br />
+                                    <span id="0">studying computer information systems.</span>&nbsp;<br />
                                     <span id="2">enjoy creating great websites.</span>&nbsp;<br />
                                     <span id="3">currently in kansas city, mo.</span>&nbsp;<br />
                                     <span id="6">obsessed with web.</span>&nbsp;<br />
