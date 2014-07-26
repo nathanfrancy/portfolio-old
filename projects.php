@@ -30,17 +30,18 @@
                     </div>
                     <br />
                     <button class="btn btn-default btn-sm feature-desc-button">
-                        <span class="glyphicon glyphicon-plus-sign"></span> Read about this project
+                        <span class="glyphicon glyphicon-plus-sign"></span> Read
                     </button>
                     <a href="#" class="btn btn-default btn-sm feature-linkage" target="_blank">
-                        <span class="glyphicon glyphicon-new-window"></span> Visit this site
+                        <span class="glyphicon glyphicon-new-window"></span> Visit
                     </a>
-                    <button class="btn btn-default btn-sm feature-close">
+                    <button class="btn btn-default btn-sm feature-close pull-right">
                         <span class="glyphicon glyphicon-remove"></span> Close
                     </button>
                     <br />
                     <br />
                     <div class="feature-desc">
+                        <p class="feature-desc-body"></p>
                         <div class="feature-skills"></div>
                     </div>
                 </div>
@@ -79,9 +80,9 @@
                 $(".box").html(projectHTML);
                 
                 // formatting, placing .row around every four .col-sm-3 columns per bootstrap requirements
-                var divs = $(".box > .col-sm-2");
-                for(var i = 0; i < divs.length; i+=6) {
-                    divs.slice(i, i+6).wrapAll("<div class='row'></div>");
+                var divs = $(".box > .col-sm-3");
+                for(var i = 0; i < divs.length; i+=4) {
+                    divs.slice(i, i+4).wrapAll("<div class='row'></div>");
                 }
                 $(".row").prepend('<div class="projectInfo"></div>');
             });
@@ -99,7 +100,7 @@
                 var theId = $(this).attr('id');
                 $('.carousel').carousel(0);
                 $(".feature-title").text(projectData[theId].title);
-                $(".feature-desc").prepend(projectData[theId].description);
+                $(".feature-desc-body").html(projectData[theId].description);
                 $(".feature-preview-1").attr('src', "img/features/preview/1/" + projectData[theId].id + ".png");
                 $(".feature-preview-2").attr('src', "img/features/preview/2/" + projectData[theId].id + ".png");
                 $(".feature-preview-3").attr('src', "img/features/preview/3/" + projectData[theId].id + ".png");
@@ -128,7 +129,7 @@
 
             // template used for generating HTML for each project
             function getPieceTemplate(id) {
-                return '<div class="col-sm-2"><div class="feature-box feature-box-'+ id +' img-responsive feature-click" id="'+ id +'">&nbsp;</div></div>';
+                return '<div class="col-sm-3"><div class="feature-box feature-box-'+ id +' img-responsive feature-click" id="'+ id +'">&nbsp;</div></div>';
             }
             
             // preload images in each

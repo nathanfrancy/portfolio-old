@@ -3,14 +3,14 @@
         {
             "id": 0,
             "title": "City of Warrensburg Website",
-            "description": "<p>I redesigned the City of Warrensburg's website with Wordpress CMS. The City</p>",
+            "description": "I redesigned the City of Warrensburg's website with residents, visitors and local businesses in mind alongside the System Administrator. Each department is now able to manage their own content and the entire site is much more organized along with being mobile/tablet friendly and very easy to maintain.",
             "link": "http://www.warrensburg-mo.com",
-            "bgColor" : "#4c255e",
+            "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
                 { "name" : "php" },
-                { "name" : "html" },
-                { "name" : "css" },
+                { "name" : "html5" },
+                { "name" : "css3" },
                 { "name" : "javascript/jquery" },
                 { "name" : "wordpress" },
                 { "name" : "apache web server" }
@@ -19,115 +19,160 @@
         {
             "id": 1,
             "title": "Deca Tickets Application",
-            "description": "",
+            "description": "I developed this application for a student organization that sells tickets as a part of its primary fundraiser. Contributors were able to login and maintain ticket records in order to keep information current, to better serve potential customers.",
             "link": "http://www.nathanfrancy.com/decatickets",
             "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
                 { "name" : "php" },
-                { "name" : "html" },
-                { "name" : "css" },
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "bootstrap" },
                 { "name" : "javascript/jquery" }
             ]
         },
         {
             "id": 2,
             "title": "Hoorfar Law Website",
-            "description": "",
+            "description": "I developed this website from scratch with help from Hoorfar Law's previous website. Much of the content stayed the same in the redesign, while adding some neat effects to some of the pages, a cleaner overall design and with responsive capability (mobile/tablet friendly).",
             "link": "http://www.hoorfarlaw.com",
-            "bgColor" : "#f0ad4e",
+            "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
-                { "name" : "php" }
+                { "name" : "php" },
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "bootstrap" },
+                { "name" : "javascript/jquery" }
             ]
         },
         {
             "id": 3,
             "title": "UCM University Store Website",
-            "description": "",
+            "description": "I built the front end of this website as a part of a 2013 redesign project, and have maintained this website since my freshman year of college. I've implemented some newer things into the site like jquery and using some ui components from bootstrap front end framework.",
             "link": "http://www.ucmbookstore.com",
-            "bgColor" : "rgb(237, 28, 36)",
+            "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
-                { "name" : "php" }
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "bootstrap" },
+                { "name" : "javascript/jquery" }
             ]
         },
         {
             "id": 4,
             "title": "UCM Deca Website",
-            "description": "",
+            "description": "I built this chapter website for DECA, a student organization I'm part of. I've built a custom theme to handle what the website needs to maintain chapter information and resources to its members and followers.",
             "link": "http://www.ucmdeca.org",
-            "bgColor" : "#f0ad4e",
+            "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
-                { "name" : "php" }
+                { "name" : "php" },
+                { "name" : "wordpress" },
+                { "name" : "custom wordpress theming" },
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "javascript/jquery" },
+                { "name" : "bootstrap" },
+                { "name" : "responsive web design" }
             ]
         },
         {
             "id" : 5,
             "title" : "Pets",
-            "description" : "",
+            "description" : "This site was built as an experiment at first for my girlfriend, and all of the pets that are in our life. It's essentially a photoblog with tools built in the back end to maintain the pet information, and using dynamic pages to grab content from the database.",
             "link" : "http://www.nathanfrancy.com/pets",
-            "bgColor" : "#428bca",
+            "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
-                { "name" : "php" }
+                { "name" : "php" },
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "javascript/jquery" },
+                { "name" : "bootstrap" },
+                { "name" : "responsive web design" },
+                { "name" : "mysql" }
             ]
         },
         {
             "id" : 6,
             "title" : "Tasks",
-            "description" : "",
+            "description" : "Tasks was an experiment at first, that turned into a project that I was actually using to manage daily tasks. Users can create lists, and compile tasks into these lists, and be able to edit their information and status. This webapp is also reponsive and built with bootstrap.",
             "link" : "http://www.nathanfrancy.com/tasks",
-            "bgColor" : "#428bca",
+            "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
-                { "name" : "php" }
+                { "name" : "php" },
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "javascript/jquery" },
+                { "name" : "bootstrap" },
+                { "name" : "responsive web design" },
+                { "name" : "mysql" }
             ]
         },
         {
             "id" : 7,
             "title" : "Bittersweet Place of Warrensburg",
-            "description" : "",
+            "description" : "I was thrilled to work with the local organization Bittersweet of Warrensburg in making their new website. I built the site with Wordpress and implemented a system of forms to take in new volunteers and enrolling children as well.",
             "link" : "http://www.bittersweetplace.org",
-            "bgColor" : "#428bca",
+            "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
-                { "name" : "html" }
+                { "name" : "php" },
+                { "name" : "wordpress" },
+                { "name" : "custom wordpress theming" },
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "javascript/jquery" }
             ]
         },
         {
             "id" : 8,
             "title" : "Book Xchange",
-            "description" : "",
+            "description" : "We built this web application as a part of a final project in the web development course at school. It's built with php and is able to handle many different functions in creating and trading textbooks. It's also built to maintain many different user accounts that can interact with each other in the process of purchasing a book from each other.",
             "link" : "http://www.nathanfrancy.com/book-xchange",
-            "bgColor" : "#428bca",
+            "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
-                { "name" : "html" }
+                { "name" : "php" },
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "javascript/jquery" },
+                { "name" : "mysql" }
             ]
             
         },
         {
             "id" : 9,
             "title" : "Baseball JSP Project",
-            "description" : "",
+            "description" : "We built this web application as a part of a final project in the java development course at school. It's basically a real-time baseball game statistic logger, that enables a user to simply click buttons to log events and keep track of the current status of a game. Games are updated in the database each time a button is clicked and therefore able to switch back and forth between games if needed.",
             "link" : "#",
-            "bgColor" : "#428bca",
+            "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
-                { "name" : "html" }
+                { "name" : "java" },
+                { "name" : "jsp" },
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "javascript/jquery" },
+                { "name" : "mysql" }
             ]
         },
         {
             "id" : 10,
             "title" : "Nathan Francy Portfolio Website",
-            "description" : "",
+            "description" : "My portfolio site is built with bootstrap and I am using a <a href='http://www.nathanfrancy.com/js/projects.json'>json file</a> to maintain the project data, and dynamically outputting the projects using jquery onto this page. I've also spent a lot of time making sure it looks nice on mobile/tablet devices.",
             "link" : "http://www.nathanfrancy.com",
-            "bgColor" : "#428bca",
+            "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
-                { "name" : "html" }
+                { "name" : "php" },
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "javascript/jquery" },
+                { "name" : "json" }
             ]
         }
     ]
