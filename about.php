@@ -66,7 +66,8 @@
                                     <span id="37">asus desktop, ubuntu 14.04 lts.</span>&nbsp;<br />
                                     <span id="36">macbook pro with retina display, osx mavericks 10.9.3.</span>&nbsp;<br />
                                     <span id="35">galaxy note 3, android 4.4.2.</span>&nbsp;<br />
-                                    <span id="38">ipad mini, ios 7.1.1.</span>
+                                    <span id="38">ipad mini, ios 7.1.1.</span>&nbsp;<br />
+                                    <span id="39">galaxy tab 3, android 4.4.2.</span>
                                 </div>
                             </div>
                             
