@@ -85,14 +85,14 @@
     var messageValid = false;
     
     /*====
-      ==== On keypress and focusout each input, validate that field */
+      ==== On keyup and focusout each input, validate that field, unless on tab key */
     $("#name").on("keyup", validateName);
     $("#name").on("focusout", validateName);
     //$("#email").on("keyup", validateEmail); // this is brutally annoying by turning red before a key is even pressed
     $("#email").on("focusout", validateEmail);
-    $("#phone").on("keyup", validatePhone);
+    $("#phone").on("keyup", function(e){ if (e.which===9) return; else validatePhone(); } );
     $("#phone").on("focusout", validatePhone);
-    $("#message").on("keyup", validateMessage);
+    $("#message").on("keyup", function(e){ if (e.which===9) return; else validateMessage(); } );
     $("#message").on("focusout", validateMessage);
     
     function validateName() {
@@ -109,10 +109,10 @@
         }
         checkValidForm();
     }
-    
+
     function validateEmail() {
         var emailInput = $("#email").val().trim();
-        
+
         if (emailInput === "") {
             emailValid = false;
             $("#email").addClass("danger-errors");
