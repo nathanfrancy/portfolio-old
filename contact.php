@@ -86,33 +86,14 @@
     
     /*====
       ==== On keypress and focusout each input, validate that field */
-    $("#name").keydown(function() {
-        validateName();
-    });
-    $("#name").focusout(function() {
-        validateName();
-    });
-    
-    $("#email").keypress(function() {
-        validateEmail();
-    });
-    $("#email").focusout(function() {
-        validateEmail();
-    });
-    
-    $("#phone").keypress(function() {
-        validatePhone();
-    });
-    $("#phone").focusout(function() {
-        validatePhone();
-    });
-    
-    $("#message").keypress(function() {
-        validateMessage();
-    });
-    $("#message").focusout(function() {
-        validateMessage();
-    });
+    $("#name").on("keyup", validateName);
+    $("#name").on("focusout", validateName);
+    //$("#email").on("keyup", validateEmail); // this is brutally annoying by turning red before a key is even pressed
+    $("#email").on("focusout", validateEmail);
+    $("#phone").on("keyup", validatePhone);
+    $("#phone").on("focusout", validatePhone);
+    $("#message").on("keyup", validateMessage);
+    $("#message").on("focusout", validateMessage);
     
     function validateName() {
         var nameInput = $("#name").val().trim();
