@@ -1,0 +1,15 @@
+[
+	{
+		"id" : 1,
+		"title" : "Hibernate field mapping",
+		"body" : "<p>I've spent a lot of the summer studying up on several tools, one of which is Hibernate. Hibernate is an ORM (object relational model) Tool that I would describe as the glue between Java pojos, the data access object layer and the database itself. The code shown above shows one of the ways you can 'map' table columns to fields within an xml file, and sortof skip the tedious step of binding fields and variables.</p>",
+		"code" : "<property name='firstName' column='first_name' type='string' />",
+		"html" : "true",
+		"date" : "08/12/2014",
+		"tags" : [
+			"hibernate",
+			"orm",
+			"java"
+		]
+	}
+]

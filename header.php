@@ -18,7 +18,7 @@
         <div class="nat-nav">
             <a href="projects.php" class="projects">projects</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
             <a href="about.php" class="about">about</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-            <a href="contact.php" class="contact">contact</a><!--&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-            <a href="clippings.php" class="clippings">clippings</a>-->
+            <a href="contact.php" class="contact">contact</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+            <a href="oneliners.php" class="oneliners">one-liners</a>
         </div>
     </div>

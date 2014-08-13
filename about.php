@@ -1,14 +1,15 @@
         <?php require('header.php'); ?>
 
         <div class="container nat-about">
-            <div class="row ">
+			<h1 style="text-align: center;">about <small>a little about me</small></h1>
+            <div class="row">
                 <div class="col-sm-1 placer">&nbsp;</div>
                 <div class="col-sm-7">
 
                     <div class="about-tabs">
                         <div class="row">
                             <div class="col-sm-12 about-label">
-                                <strong>about</strong>
+                                <strong>facts</strong>
                                 <div class="about-content">
                                     <span id="0">studying computer information systems.</span>&nbsp;<br />
                                     <span id="2">enjoy creating great websites.</span>&nbsp;<br />

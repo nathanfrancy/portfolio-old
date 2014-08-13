@@ -220,7 +220,7 @@ feature classes
 }
 
 .nat-about {
-    margin-top: 45px;
+    //margin-top: 45px;
 
     .about-label {
         text-align: left;
@@ -354,6 +354,30 @@ feature classes
 
 .projectInfo {
     display: none;
+}
+
+#oneliners-data {
+	margin-top: 50px;
+}
+
+.code-post {
+	margin-bottom: 15px;
+	margin-top: 25px;
+	
+	h3 {
+		margin-top: 0px;
+		padding-bottom: 15px;
+	}
+	
+	.code-post-body {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	code {
+		max-width: 100%;
+		white-space: pre-wrap;
+	}
 }
 
 @media all and (max-width: 768px) {

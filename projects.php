@@ -1,6 +1,7 @@
         <?php require('header.php'); ?>
 
         <div class="nat-projects container-fluid">
+			<h1 style="text-align: center;">projects <small>my work</small></h1>
             
             <div id="overlay"></div>
             
@@ -112,7 +113,7 @@
                 // build skillstring and place into feature box
                 var skillString = "Related Skills: &nbsp;";
                 for (index = 0; index < projectData[theId].skills.length; ++index) {
-                    skillString += '&nbsp;<span class="label label-default">' + projectData[theId].skills[index].name + '</span>';            
+                    skillString += '&nbsp;<span class="label label-default" style="display: inline-block;">' + projectData[theId].skills[index].name + '</span>';            
                 }
                 $(".feature-skills").html(skillString);
             });
