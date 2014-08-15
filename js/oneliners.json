@@ -25,5 +25,19 @@
 			"command line",
 			"tomcat"
 		]
+	},
+	{
+		"id" : 3,
+		"title" : "Fading in content on this page",
+		"body" : "<p>Somewhere deep in the world of Stack Overflow, I found this technique of fading in content. 'linertext' is just a string of HTML that I'm inserting into the DOM using the <code>appendTo</code> method, while using the <code>fadeIn</code> method to give it a cool effect.</p>",
+		"code" : "$(linertext).hide().appendTo('#oneliners-data').fadeIn();",
+		"html" : "false",
+		"date" : "08/14/2014",
+		"tags" : [
+			"javascript",
+			"json",
+			"jquery",
+			"html"
+		]
 	}
 ]
