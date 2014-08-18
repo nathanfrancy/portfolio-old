@@ -1,7 +1,7 @@
         <?php require('header.php'); ?>
 
         <div class="container nat-about">
-			<h1 style="text-align: center;">about <small>a little about me</small></h1>
+			<h1 style="text-align: center;">about</h1>
             <div class="row">
                 <div class="col-sm-1 placer">&nbsp;</div>
                 <div class="col-sm-7">

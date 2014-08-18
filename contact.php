@@ -2,7 +2,7 @@
 
 <div class="nat-projects container">
 	
-	<h1 style="text-align: center;">contact <small>feel free to drop me a line</small></h1>
+	<h1 style="text-align: center;">contact me</h1>
 
     <form method="POST" id="sendmemail">
 

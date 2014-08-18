@@ -1,7 +1,7 @@
         <?php require('header.php'); ?>
 
         <div class="nat-projects container-fluid">
-			<h1 style="text-align: center;">projects <small>my work</small></h1>
+			<h1 style="text-align: center;">projects</h1>
             
             <div id="overlay"></div>
             
