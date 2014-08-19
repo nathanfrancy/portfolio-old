@@ -17,7 +17,8 @@
                                     <span id="6">obsessed with web.</span>&nbsp;<br />
                                     <span id="7">lover of coca-cola.</span>&nbsp;<br />
                                     <span id="8">happy boyfriend of 3 years.</span>&nbsp;<br />
-                                    <span id="9">chipotle addict.</span>
+                                    <span id="9">chipotle addict.</span>&nbsp;<br />
+                                    <span id="40">beer enthusiast.</span>
                                 </div>
                             </div>
                         </div>
