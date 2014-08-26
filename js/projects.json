@@ -174,5 +174,22 @@
                 { "name" : "javascript/jquery" },
                 { "name" : "json" }
             ]
+        },
+        {
+            "id" : 11,
+            "title" : "Backyard by Design KC",
+            "description" : "",
+            "link" : "http://www.backyardbydesignkc.com",
+            "bgColor" : "#000000",
+            "color" : "white",
+            "skills" : [
+                { "name" : "php" },
+                { "name" : "html5" },
+                { "name" : "css3" },
+                { "name" : "javascript/jquery" },
+                { "name" : "json" },
+				{ "name" : "wordpress" },
+				{ "name" : "mysql" }
+            ]
         }
     ]

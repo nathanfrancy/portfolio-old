@@ -2,7 +2,7 @@
 	{
 		"id" : 1,
 		"title" : "Hibernate field mapping",
-		"body" : "<p>I've spent a lot of the summer studying up on several tools, one of which is Hibernate. Hibernate is an ORM (object relational model) Tool that I would describe as the glue between Java pojos, the data access object layer and the database itself. The code shown above shows one of the ways you can 'map' table columns to fields within an xml file, and sortof skip the tedious step of binding fields and variables.</p>",
+		"body" : "<p>I've spent a lot of the summer studying up on several tools, one of which is Hibernate. Hibernate is an ORM (object relational model) Tool that I would describe as the glue between Java pojos, the data access object layer and the database itself. The code shown above shows one of the ways you can 'map' table columns to fields within an xml file, which you can then use in the dao classes to easier perform CRUD operations.</p>",
 		"code" : "<property name='firstName' column='first_name' type='string' />",
 		"html" : "true",
 		"date" : "08/12/2014",
@@ -38,6 +38,29 @@
 			"json",
 			"jquery",
 			"html"
+		]
+	},
+	{
+		"id" : 4,
+		"title" : "Sass loop",
+		"body" : "<p>This is the start of a loop I wrote using sass, which is a CSS preprocessor that sortof extends the functionality of CSS (thus, using a for loop). I'm actually using this loop as a part of this site to assign background images to each of the project pieces on the projects page.</p>",
+		"code" : "@for $i from 0 through 11 {",
+		"html" : "false",
+		"date" : "08/21/2014",
+		"tags" : [
+			"sass",
+			"css"
+		]
+	},
+	{
+		"id" : 5,
+		"title" : "Eclipse views disappearing",
+		"body" : "<p>Sometimes I'll have disappearing views in eclipse as a result from switching back and forth from one screen to two screens, and vice-versa. You'll have to re-personalize how you like it, but at least you'll have your views back instead of nowhere to be found.</p>",
+		"code" : "Window > Reset Perspective",
+		"html" : "false",
+		"date" : "08/26/2014",
+		"tags" : [
+			"eclipse"
 		]
 	}
 ]
