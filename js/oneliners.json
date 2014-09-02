@@ -15,7 +15,7 @@
 	{
 		"id" : 2,
 		"title" : "Transferring files using SCP",
-		"body" : "<p>I recently installed a fresh copy of Ubuntu on a desktop machine, and have been playing a lot with linux/unix bash. Since I have tomcat running on linux, it's practical to use this to deploy, say a .war file, since I'm frequently working on java web projects on my Mac. Simply use the scp command, specify the file for transfer, your username and hostname followed by the absolute path to where the file needs to go. It prompted me for a password, and moved the file without any trouble. Wonderful.</p>",
+		"body" : "<p>I recently installed a fresh copy of Ubuntu on a desktop machine, and have been playing a lot with linux/unix bash. Since I have tomcat running on linux, it's practical to use this to deploy, say a .war file, since I'm frequently working on java web projects on my Mac. Simply use the scp command, specify the file for transfer, your username and hostname followed by the absolute path to where the file needs to go. Also very useful if I want to quickly move a file over to my other machine. It prompted me for a password, and moved the file without any trouble. Wonderful.</p>",
 		"code" : "$ scp Project.war nathanfrancy@hostname:/usr/tomcat/webapps",
 		"html" : "false",
 		"date" : "08/13/2014",
@@ -55,7 +55,7 @@
 	{
 		"id" : 5,
 		"title" : "Eclipse views disappearing",
-		"body" : "<p>Sometimes I'll have disappearing views in eclipse as a result from switching back and forth from one screen to two screens, and vice-versa. You'll have to re-personalize how you like it, but at least you'll have your views back instead of nowhere to be found.</p>",
+		"body" : "<p>Sometimes I'll have disappearing views in eclipse as a result from switching back and forth from one screen to two screens, and vice-versa. You'll have to re-personalize how you like it, but at least you'll have your views back instead of nowhere to be found. And this might seem obvious at first, but I never actually knew this existed (could be only in some versions of eclipse).</p>",
 		"code" : "Window > Reset Perspective",
 		"html" : "false",
 		"date" : "08/26/2014",

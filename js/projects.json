@@ -61,21 +61,21 @@
             ]
         },
         {
-            "id": 4,
-            "title": "UCM Deca Website",
-            "description": "I built this chapter website for DECA, a student organization I'm part of. I've built a custom theme to handle what the website needs to maintain chapter information and resources to its members and followers.",
-            "link": "http://www.ucmdeca.org",
+            "id" : 4,
+            "title" : "Backyard by Design KC",
+            "description" : "I joined Cara and <a href='http://www.boxspringdesign.com/'>Boxspring Design</a> for this project, and implemented their design ideas into this responsive web package using custom themeing in wordpress/php.",
+            "link" : "http://www.backyardbydesignkc.com",
             "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
                 { "name" : "php" },
-                { "name" : "wordpress" },
-                { "name" : "custom wordpress theming" },
                 { "name" : "html5" },
                 { "name" : "css3" },
                 { "name" : "javascript/jquery" },
-                { "name" : "bootstrap" },
-                { "name" : "responsive web design" }
+                { "name" : "json" },
+				{ "name" : "wordpress" },
+				{ "name" : "mysql" },
+				{ "name" : "responsive" }
             ]
         },
         {
@@ -175,21 +175,23 @@
                 { "name" : "json" }
             ]
         },
-        {
-            "id" : 11,
-            "title" : "Backyard by Design KC",
-            "description" : "",
-            "link" : "http://www.backyardbydesignkc.com",
+		{
+            "id": 11,
+            "title": "UCM Deca Website",
+            "description": "I built this chapter website for DECA, a student organization I'm part of. I've built a custom theme to handle what the website needs to maintain chapter information and resources to its members and followers.",
+            "link": "http://www.ucmdeca.org",
             "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
                 { "name" : "php" },
+                { "name" : "wordpress" },
+                { "name" : "custom wordpress theming" },
                 { "name" : "html5" },
                 { "name" : "css3" },
                 { "name" : "javascript/jquery" },
-                { "name" : "json" },
-				{ "name" : "wordpress" },
-				{ "name" : "mysql" }
+                { "name" : "bootstrap" },
+                { "name" : "responsive web design" }
             ]
         }
+        
     ]

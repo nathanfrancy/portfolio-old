@@ -56,6 +56,7 @@
                                     <span id="31">kansas city sports.</span>&nbsp;<br />
                                     <span id="32">new technology.</span>&nbsp;<br />
                                     <span id="33">twitter.</span>&nbsp;<br />
+									<span id="41">linux and open source.</span>&nbsp;<br />
                                 </div>
                             </div>
                             
