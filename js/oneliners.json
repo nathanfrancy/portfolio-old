@@ -62,5 +62,19 @@
 		"tags" : [
 			"eclipse"
 		]
+	},
+	{
+		"id" : 6,
+		"title" : "jQuery click handlers",
+		"body" : "<p>I'm a fan of using jQuery to manipulate the content of my view (mainly after an ajax call or something), but sometimes this can get messy with the regular <code>$(identifier).click()</code> handler, if the content you're trying to click on was inserted after the page loads. The DOM isn't aware of this content, and therefore won't execute your code like you want. Using the method above makes the DOM able to 'see' that content again with jQuery.</p>",
+		"code" : "$(document).on('click', '.list-user-item', function(e)",
+		"html" : "false",
+		"date" : "09/11/2014",
+		"tags" : [
+			"jquery",
+            "javascript"
+		]
 	}
+    
+    
 ]
