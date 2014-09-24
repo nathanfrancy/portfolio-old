@@ -20,7 +20,7 @@
             "id": 1,
             "title": "Deca Tickets Application",
             "description": "I developed this application for a student organization that sells tickets as a part of its primary fundraiser. Contributors were able to login and maintain ticket records in order to keep information current, to better serve potential customers.",
-            "link": "http://www.nathanfrancy.com/decatickets",
+            "link": "http://www.nathanfrancy.com/test/decatickets",
             "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
@@ -99,7 +99,7 @@
             "id" : 6,
             "title" : "Tasks",
             "description" : "Tasks was an experiment at first, that turned into a project that I was actually using to manage daily tasks. Users can create lists, and compile tasks into these lists, and be able to edit their information and status. This webapp is also reponsive and built with bootstrap.",
-            "link" : "http://www.nathanfrancy.com/tasks",
+            "link" : "http://www.nathanfrancy.com/test/tasks",
             "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
@@ -132,7 +132,7 @@
             "id" : 8,
             "title" : "Book Xchange",
             "description" : "We built this web application as a part of a final project in the web development course at school. It's built with php and is able to handle many different functions in creating and trading textbooks. It's also built to maintain many different user accounts that can interact with each other in the process of purchasing a book from each other.",
-            "link" : "http://www.nathanfrancy.com/book-xchange",
+            "link" : "http://www.nathanfrancy.com/test/book-xchange",
             "bgColor" : "#000000",
             "color" : "white",
             "skills" : [
