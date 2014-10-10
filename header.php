@@ -16,9 +16,9 @@
     <div class="nat-head">
         <h1><span>Nathan Francy</span></h1>
         <div class="nat-nav">
-            <a href="projects.php" class="projects">projects</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-            <a href="about.php" class="about">about</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-            <a href="contact.php" class="contact">contact</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+            <a href="projects.php" class="projects">projects</a>&nbsp;&nbsp;
+            <a href="about.php" class="about">about</a>&nbsp;&nbsp;
+            <a href="contact.php" class="contact">contact</a>&nbsp;&nbsp;
             <a href="oneliners.php" class="oneliners">one-liners</a>
         </div>
     </div>
