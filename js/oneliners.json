@@ -74,7 +74,18 @@
 			"jquery",
             "javascript"
 		]
-	}
-    
-    
+	},
+    {
+        "id" : 7,
+        "title" : "Apache configuration",
+        "body" : "<p>I recently reinstalled Mac OS X due to several things: as Yosemite just came out, starting fresh seemed very appealing especially because my disk was getting a little full; and Apache was giving me all kinds of trouble after updating. When I reinstalled, I used this command several times to edit apache while following <a href='http://coolestguidesontheplanet.com/get-apache-mysql-php-phpmyadmin-working-osx-10-10-yosemite/'>this guide</a> (which is great btw). I configured my home ~/Sites directory and made a couple virtual hosts for some projects I've been working on. Before this, editing apache files seemed a little scary but I found that if you just know what you're doing (or are following a guide that is well-put-together) it isn't that bad and can give you exactly what you want.</p>",
+        "code" : "sudo nano /etc/apache2/httpd.conf",
+        "html" : "false", 
+        "date" : "11/14/2014",
+        "tags" : [
+            "command line",
+            "bash",
+            "apache"
+        ]
+    }
 ]
